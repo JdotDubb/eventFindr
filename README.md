@@ -1,2 +1,0 @@
-# eventFindr
-Capstone Project
