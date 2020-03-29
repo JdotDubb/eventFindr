@@ -19,8 +19,8 @@
       </div>
       <!--Navigation ID to edit nav-->
       <nav id="nav">
-         <a class="active" href="index.html">Home</a>
-         <a href="test.html">Test Page</a>
+         <a class="active" href="index.jsp">Home</a>
+         <a href="test.jsp">Test Page</a>
          <a href="FILLIN">FILL IN</a>
          <a href="FILLIN">FILL IN</a>
          <a href="FILLIN">FILL IN</a>
@@ -28,5 +28,7 @@
          <a href="FILLIN">FILL IN</a>
          <a href="FILLIN">FILL IN</a>
       </nav>
+      
+      
    </body>
 </html>
