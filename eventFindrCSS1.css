@@ -38,3 +38,17 @@
      background-color: #ddd;
      color: black;
 }
+
+
+.e1{
+text-align: center;
+}
+
+.il{
+ display: inline-block;
+}
+
+#stars1{
+ position: relative;
+ top:-100px;
+}
