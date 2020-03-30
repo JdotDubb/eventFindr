@@ -16,4 +16,9 @@ public class HomeController {
 	   public String test() {
 	      return "test";
 	   }
+	
+	@RequestMapping(value = "/pastevents", method = RequestMethod.GET)
+	   public String pastevents() {
+	      return "pastevents";
+	   }
 }
