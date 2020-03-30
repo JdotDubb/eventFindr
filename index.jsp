@@ -1,6 +1,6 @@
 <html>
    <head>
-      <link rel="stylesheet" href="eventFindrCSS1.css">
+      <link rel="stylesheet" href="CSS/eventFindrCSS1.css">
       <!-- Font courtesy of https://fonts.google.com/?selection.family=Cinzel-->
       <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
       <!--Font courtesy of https://fonts.google.com/?selection.family=Questrial-->
