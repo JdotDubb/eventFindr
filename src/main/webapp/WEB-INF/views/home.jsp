@@ -21,7 +21,7 @@
       <nav id="nav">
          <a class="active" href="/eventFindr/">Home</a>
          <a href="/eventFindr/test">Test Page</a>
-         <a href="FILLIN">FILL IN</a>
+         <a href="/eventFindr/pastevents">Past Events</a>
          <a href="FILLIN">FILL IN</a>
          <a href="FILLIN">FILL IN</a>
          <a href="FILLIN">FILL IN</a>
