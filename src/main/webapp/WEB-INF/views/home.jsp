@@ -28,7 +28,7 @@
          <a href="FILLIN">FILL IN</a>
          <a href="FILLIN">FILL IN</a>
       </nav>
-      <img class="test" src="Images/TODOimage.png" alt="test" width="200"
+      <img class="test" src="resources/test.png" alt="test" width="200"
          height="80"></img>
       
    </body>
