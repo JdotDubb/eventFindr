@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="eventFindrCSS1.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="rating.js"></script>
+<script>
+function submitRating(){
+	var stars = 0;
+	var $text = null;
+	if(window.getSelection()!=null){
+		$text=window.getSelection().toString();
+	}
+	stars = $text.toString().length;
+	alert(stars);
+}
+	
+      </script>
+</head>
+
+<div class="e1">
+        <div class="il">
+        <span>
+        <button style="width:22%">See more about Event Name</button><button style="width:22%">See more about Event Name</button><button style="width:22%">See more about Event Name</button><button style="width:22%">See more about Event Name</button>
+    </span><br>
+    <span>
+        <img src="TODOimage.png" style="width:22%" alt="eventName"><img src="TODOimage.png" style="width:22%" alt="eventName"><img src="TODOimage.png" style="width:22%" alt="eventName"><img src="TODOimage.png" style="width:22%" alt="eventName">
+    </span>
+    <span class="rating" style="width:20%">
+        <p class="stars1" style="font-size:55px">&#9734;&#9734;&#9734;&#9734;&#9734;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="stars1" style="font-size:55px">&#9734;&#9734;&#9734;&#9734;&#9734;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="stars1" style="font-size:55px">&#9734;&#9734;&#9734;&#9734;&#9734;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="stars1" style="font-size:55px">&#9734;&#9734;&#9734;&#9734;&#9734;</p>
+    </span>
+	<span>
+	</div>
+        <button style="width:22%" id="plz" onclick=submitRating()>Submit Rating plz</button><button style="width:22%">Submit Rating</button><button style="width:22%">Submit Rating</button><button style="width:22%">Submit Rating</button>
+	</span><br><br>
+    </div>
+	<div class="e1">
+        <div class="il">
+        <span>
+        <button style="width:22%">See more about Event Name</button><button style="width:22%">See more about Event Name</button><button style="width:22%">See more about Event Name</button><button style="width:22%">See more about Event Name</button>
+    </span><br>
+    <span>
+        <img src="TODOimage.png" style="width:22%" alt="eventName"><img src="TODOimage.png" style="width:22%" alt="eventName"><img src="TODOimage.png" style="width:22%" alt="eventName"><img src="TODOimage.png" style="width:22%" alt="eventName">
+    </span>
+    <span class="rating" style="width:20%">
+        <p class="stars1" style="font-size:55px">&#9734;&#9734;&#9734;&#9734;&#9734;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="stars1" style="font-size:55px">&#9734;&#9734;&#9734;&#9734;&#9734;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="stars1" style="font-size:55px">&#9734;&#9734;&#9734;&#9734;&#9734;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="stars1" style="font-size:55px">&#9734;&#9734;&#9734;&#9734;&#9734;</p>
+    </span>
+	<span>
+	</div>
+        <button style="width:22%">Submit Rating</button><button style="width:22%">Submit Rating</button><button style="width:22%">Submit Rating</button><button style="width:22%">Submit Rating</button>
+	</span><br><br>
+    </div>
+	<div class="e1">
+        <div class="il">
+        <span>
+        <button style="width:22%">See more about Event Name</button><button style="width:22%">See more about Event Name</button><button style="width:22%">See more about Event Name</button><button style="width:22%">See more about Event Name</button>
+    </span><br>
+    <span>
+        <img src="TODOimage.png" style="width:22%" alt="eventName"><img src="TODOimage.png" style="width:22%" alt="eventName"><img src="TODOimage.png" style="width:22%" alt="eventName"><img src="TODOimage.png" style="width:22%" alt="eventName">
+    </span>
+    <span class="rating" style="width:20%">
+        <p class="stars1" style="font-size:55px">&#9734;&#9734;&#9734;&#9734;&#9734;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="stars1" style="font-size:55px">&#9734;&#9734;&#9734;&#9734;&#9734;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="stars1" style="font-size:55px">&#9734;&#9734;&#9734;&#9734;&#9734;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="stars1" style="font-size:55px">&#9734;&#9734;&#9734;&#9734;&#9734;</p>
+    </span>
+	<span>
+	</div>
+        <button style="width:22%">Submit Rating</button><button style="width:22%">Submit Rating</button><button style="width:22%">Submit Rating</button><button style="width:22%">Submit Rating</button>
+	</span><br><br>
+    </div>
+	</html>

@@ -48,7 +48,15 @@ text-align: center;
  display: inline-block;
 }
 
-#stars1{
- position: relative;
- top:-100px;
+.rating{
+white-space: nowrap;
+overflow-x: auto;
+}
+
+.rating .stars1{
+display: inline-block;
+}
+
+::selection{
+color:yellow;
 }
