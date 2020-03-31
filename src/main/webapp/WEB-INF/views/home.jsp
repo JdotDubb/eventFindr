@@ -28,8 +28,8 @@
          <a href="FILLIN">FILL IN</a>
          <a href="FILLIN">FILL IN</a>
       </nav>
-      <img class="test" src="resources/test.png" alt="test" width="200"
-         height="80"></img>
-      
+      <!--CONTENT-->
+      <p>Home page once logged in</p>
+      <a href = "http://api.eventful.com/rest/events/get?...&id=E0-001-000278174-6">test</a>
    </body>
 </html>
