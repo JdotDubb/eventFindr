@@ -7,6 +7,8 @@
       <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
       <!-- Font courtesy of https://fonts.google.com/?selection.family=Dancing+Scriptl-->
       <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="resources/rating.js"></script>
       <title>eventFindr | Host, Dicover, Join</title>
    </head>
    <body>
@@ -29,42 +31,68 @@
          <a href="FILLIN">FILL IN</a>
       </nav>
       <!--CONTENT-->
-      <h1 align="center">Your Past Events</h1>
-      <div class="e1">
-      <div class="il">
-         <span>
-         <button style="width:22%">Event Name</button><button style="width:22%">Event Name</button><button style="width:22%">Event Name</button><button style="width:22%">Event Name</button>
-         </span><br>
-         <span>
-         <img src="resources/TODOimage.png" style="width:22%" alt="eventName"><img src="resources/TODOimage.png" style="width:22%" alt="eventName"><img src="resources/TODOimage.png" style="width:22%" alt="eventName"><img src="resources/TODOimage.png" style="width:22%" alt="eventName">
-         </span><br>
-         <span class="rating" style="width:22%">
-            <p id="stars1" style="font-size:65px">&#9734;&#9734;&#9734;&#9734;&#9734;&nbsp;&#9734;&#9734;&#9734;&#9734;&#9734;&nbsp;&#9734;&#9734;&#9734;&#9734;&#9734;&nbsp;&#9734;&#9734;&#9734;&#9734;&#9734;</p>
-         </span>
-      </div>
-      <div class="e1">
-      <div class="il">
-         <span>
-         <button style="width:22%">Event Name</button><button style="width:22%">Event Name</button><button style="width:22%">Event Name</button><button style="width:22%">Event Name</button>
-         </span><br>
-         <span>
-         <img src="resources/TODOimage.png" style="width:22%" alt="eventName"><img src="resources/TODOimage.png" style="width:22%" alt="eventName"><img src="resources/TODOimage.png" style="width:22%" alt="eventName"><img src="resources/TODOimage.png" style="width:22%" alt="eventName">
-         </span><br>
-         <span class="rating" style="width:22%">
-            <p id="stars1" style="font-size:65px">&#9734;&#9734;&#9734;&#9734;&#9734;&nbsp;&#9734;&#9734;&#9734;&#9734;&#9734;&nbsp;&#9734;&#9734;&#9734;&#9734;&#9734;&nbsp;&#9734;&#9734;&#9734;&#9734;&#9734;</p>
-         </span>
-      </div>
-      <div class="e1">
-      <div class="il">
-         <span>
-         <button style="width:22%">Event Name</button><button style="width:22%">Event Name</button><button style="width:22%">Event Name</button><button style="width:22%">Event Name</button>
-         </span><br>
-         <span>
-         <img src="resources/TODOimage.png" style="width:22%" alt="eventName"><img src="resources/TODOimage.png" style="width:22%" alt="eventName"><img src="resources/TODOimage.png" style="width:22%" alt="eventName"><img src="resources/TODOimage.png" style="width:22%" alt="eventName">
-         </span><br>
-         <span class="rating" style="width:22%">
-            <p id="stars1" style="font-size:65px">&#9734;&#9734;&#9734;&#9734;&#9734;&nbsp;&#9734;&#9734;&#9734;&#9734;&#9734;&nbsp;&#9734;&#9734;&#9734;&#9734;&#9734;&nbsp;&#9734;&#9734;&#9734;&#9734;&#9734;</p>
-         </span>
-      </div>
+      
+
+</head>
+<script>
+function submitRating(){
+	var stars = 0;
+	var $text = null;
+	if(window.getSelection()!=null){
+		$text=window.getSelection().toString();
+	}
+	stars = $text.toString().length;
+	alert(stars);
+}
+	
+      </script>
+<div class="e1">
+        <div class="il">
+        <span>
+        <button style="width:22%">See more about Event Name</button><button style="width:22%">See more about Event Name</button><button style="width:22%">See more about Event Name</button><button style="width:22%">See more about Event Name</button>
+    </span><br>
+    <span>
+        <img src="resources\TODOimage.png" style="width:22%" alt="eventName"><img src="resources\TODOimage.png" style="width:22%" alt="eventName"><img src="resources\TODOimage.png" style="width:22%" alt="eventName"><img src="resources\TODOimage.png" style="width:22%" alt="eventName">
+    </span>
+    <span class="rating" style="width:20%">
+        <p class="stars1" style="font-size:55px">&#9734;&#9734;&#9734;&#9734;&#9734;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="stars1" style="font-size:55px">&#9734;&#9734;&#9734;&#9734;&#9734;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="stars1" style="font-size:55px">&#9734;&#9734;&#9734;&#9734;&#9734;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="stars1" style="font-size:55px">&#9734;&#9734;&#9734;&#9734;&#9734;</p>
+    </span>
+	<span>
+	</div>
+        <button style="width:22%" id="plz" onclick=submitRating()>Submit Rating plz</button><button style="width:22%">Submit Rating</button><button style="width:22%">Submit Rating</button><button style="width:22%">Submit Rating</button>
+	</span><br><br>
+    </div>
+	<div class="e1">
+        <div class="il">
+        <span>
+        <button style="width:22%">See more about Event Name</button><button style="width:22%">See more about Event Name</button><button style="width:22%">See more about Event Name</button><button style="width:22%">See more about Event Name</button>
+    </span><br>
+    <span>
+        <img src="resources\TODOimage.png" style="width:22%" alt="eventName"><img src="resources\TODOimage.png" style="width:22%" alt="eventName"><img src="resources\TODOimage.png" style="width:22%" alt="eventName"><img src="resources\TODOimage.png" style="width:22%" alt="eventName">
+    </span>
+    <span class="rating" style="width:20%">
+        <p class="stars1" style="font-size:55px">&#9734;&#9734;&#9734;&#9734;&#9734;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="stars1" style="font-size:55px">&#9734;&#9734;&#9734;&#9734;&#9734;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="stars1" style="font-size:55px">&#9734;&#9734;&#9734;&#9734;&#9734;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="stars1" style="font-size:55px">&#9734;&#9734;&#9734;&#9734;&#9734;</p>
+    </span>
+	<span>
+	</div>
+        <button style="width:22%">Submit Rating</button><button style="width:22%">Submit Rating</button><button style="width:22%">Submit Rating</button><button style="width:22%">Submit Rating</button>
+	</span><br><br>
+    </div>
+	<div class="e1">
+        <div class="il">
+        <span>
+        <button style="width:22%">See more about Event Name</button><button style="width:22%">See more about Event Name</button><button style="width:22%">See more about Event Name</button><button style="width:22%">See more about Event Name</button>
+    </span><br>
+    <span>
+        <img src="resources\TODOimage.png" style="width:22%" alt="eventName"><img src="resources\TODOimage.png" style="width:22%" alt="eventName"><img src="resources\TODOimage.png" style="width:22%" alt="eventName"><img src="resources\TODOimage.png" style="width:22%" alt="eventName">
+    </span>
+    <span class="rating" style="width:20%">
+        <p class="stars1" style="font-size:55px">&#9734;&#9734;&#9734;&#9734;&#9734;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="stars1" style="font-size:55px">&#9734;&#9734;&#9734;&#9734;&#9734;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="stars1" style="font-size:55px">&#9734;&#9734;&#9734;&#9734;&#9734;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="stars1" style="font-size:55px">&#9734;&#9734;&#9734;&#9734;&#9734;</p>
+    </span>
+	<span>
+	</div>
+        <button style="width:22%">Submit Rating</button><button style="width:22%">Submit Rating</button><button style="width:22%">Submit Rating</button><button style="width:22%">Submit Rating</button>
+	</span><br><br>
+    </div>
    </body>
 </html>
