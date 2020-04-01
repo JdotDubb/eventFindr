@@ -7,12 +7,17 @@
 <script>
 function submitRating(){
 	var stars = 0;
-	var $text = null;
-	if(window.getSelection()!=null){
-		$text=window.getSelection().toString();
-	}
-	stars = $text.toString().length;
-	alert(stars);
+         	var $text = null;
+         	if(window.getSelection()!=null){
+         		$text=window.getSelection();
+				$node = window.getSelection().focusNode.parentElement
+         	}
+         	stars = $text.toString().length;
+			if(stars>=5)
+				stars=5
+			$node.style.color = "yellow"
+			//$node.css("color","yellow")
+         	alert($node.toString()+stars);
 }
 	
       </script>

@@ -3,8 +3,12 @@ function getSelectedText(){
 	if(window.getSelection()!=null){
 		$text=window.getSelection().toString();
 	}
-	
-	return $text;
+	var starText = "";
+	for(i=0;i<$text.length;i++{
+		if($text[i]==='&#9734;')
+			starText+=$text[i]
+	}
+	return starText;
 }
 
 function rateText(s){
