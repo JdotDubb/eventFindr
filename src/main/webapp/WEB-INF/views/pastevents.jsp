@@ -14,10 +14,7 @@
    <body>
       <!--Div for banner & text-->
       <div class="banner">
-         <div class="bannerText">
-            <h1 id="h1">eventFindr</h1>
-            <p>host, discover, join</p>
-         </div>
+         
       </div>
       <!--Navigation ID to edit nav-->
       <nav id="nav">
