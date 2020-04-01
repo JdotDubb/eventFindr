@@ -35,8 +35,8 @@
       
       <!--CONTENT-->
       <div class="jumbotron text-center">
-  <h1>Welcome</h1>
-  <p>Your one stop shop for events</p> 
+  <h1>Host</h1>
+  <p>Let's get your event started</p> 
 </div>
       <div class="container">
   <div class="row">

@@ -19,16 +19,14 @@
             <p>host, discover, join</p>
          </div>
       </div>
+      
       <!--Navigation ID to edit nav-->
       <nav id="nav">
          <a class="active" href="/eventFindr/">Home</a>
-         <a href="/eventFindr/test">Test Page</a>
+         <a href="/eventFindr/host">Host</a>
+         <a href="/eventFindr/discover">Discover</a>
+         <a href="/eventFindr/join">Join</a>
          <a href="/eventFindr/pastevents">Past Events</a>
-         <a href="FILLIN">FILL IN</a>
-         <a href="FILLIN">FILL IN</a>
-         <a href="FILLIN">FILL IN</a>
-         <a href="FILLIN">FILL IN</a>
-         <a href="FILLIN">FILL IN</a>
       </nav>
       <!--CONTENT-->
       
