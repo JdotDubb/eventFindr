@@ -23,8 +23,8 @@
             <p>host, discover, join</p>
          </div>
       </div>
-      
       <!--Navigation ID to edit nav-->
+      
       <nav id="nav">
          <a class="active" href="/eventFindr/">Home</a>
          <a href="/eventFindr/host">Host</a>
@@ -35,8 +35,8 @@
       
       <!--CONTENT-->
       <div class="jumbotron text-center">
-  <h1>Welcome</h1>
-  <p>Your one stop shop for events</p> 
+  <h1>Discover</h1>
+  <p>Let's find your next event</p> 
 </div>
       <div class="container">
   <div class="row">

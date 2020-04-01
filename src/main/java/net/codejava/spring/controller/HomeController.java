@@ -6,12 +6,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class HomeController {
+	
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home() {
 		return "home";
 	}
-
+	
 	@RequestMapping(value = "/test", method = RequestMethod.GET)
 	public String test() {
 		return "test";
@@ -21,4 +22,20 @@ public class HomeController {
 	public String pastevents() {
 		return "pastevents";
 	}
+	
+	@RequestMapping(value = "/host", method = RequestMethod.GET)
+	public String host() {
+		return "host";
+	}
+	
+	@RequestMapping(value = "/discover", method = RequestMethod.GET)
+	public String discover() {
+		return "discover";
+	}
+	
+	@RequestMapping(value = "/join", method = RequestMethod.GET)
+	public String join() {
+		return "join";
+	}
+	
 }

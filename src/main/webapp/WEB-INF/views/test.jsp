@@ -29,6 +29,6 @@
          <a href="FILLIN">FILL IN</a>
       </nav>
       <!--CONTENT-->
-      <p>Test Page</p>
+      <p>Use this page for testing things if you need.</p>
    </body>
 </html>
