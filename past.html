@@ -5,22 +5,69 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="rating.js"></script>
 <script>
-function submitRating(){
+
+function submitRating(buttonID){
 	var stars = 0;
          	var $text = null;
+			var $str = null;
+			var $node = null;
+			
          	if(window.getSelection()!=null){
          		$text=window.getSelection();
+				$str=$text.toString();
 				$node = window.getSelection().focusNode.parentElement
          	}
-         	stars = $text.toString().length;
-			if(stars>=5)
-				stars=5
-			$node.style.color = "yellow"
+			selectedLength = $str.length
+			
+			$str=$str.replace(/\u00A0/g, '')
+			//$node.innerText = $str
+			
+			
+			
+			 if($str.length==1){
+			$node.innerText=$str
+			while($node.innerText.length<20){
+				$node.innerText+="\u00A0"
+			}}
+			
+			else if($str.length==2){
+			$node.innerText=$str
+			while($node.innerText.length<15){
+				$node.innerText+="\u00A0"
+			}}
+			
+			else if($str.length==3){
+			$node.innerText=$str
+			while($node.innerText.length<15){
+				$node.innerText+="\u00A0"
+			}}
+			
+			else if($str.length==4){
+			$node.innerText=$str
+			while($node.innerText.length<10){
+				$node.innerText+="\u00A0"
+			}}
+			
+			else if($str.length==5){
+			$node.innerText=$str
+				$node.innerText+="\u00A0\u00A0\u00A0\u00A0"
+			}
+			
+			//$str.style.color ="yellow"
+			
+			
+         	//stars = $node.toString().length;
+			//if(starCount>=5)
+				//starCount=5
+			document.getElementById("plzwrk").style.color = "yellow"
 			//$node.css("color","yellow")
-         	alert($node.toString()+stars);
-}
-	
+         	alert($str.length);
+			//$(buttonID).remove()
+			
+			
+}	
       </script>
+	  
 </head>
 
 <div class="e1">
@@ -32,11 +79,11 @@ function submitRating(){
         <img src="TODOimage.png" style="width:22%" alt="eventName"><img src="TODOimage.png" style="width:22%" alt="eventName"><img src="TODOimage.png" style="width:22%" alt="eventName"><img src="TODOimage.png" style="width:22%" alt="eventName">
     </span>
     <span class="rating" style="width:20%">
-        <p class="stars1" style="font-size:55px">&#9734;&#9734;&#9734;&#9734;&#9734;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="stars1" style="font-size:55px">&#9734;&#9734;&#9734;&#9734;&#9734;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="stars1" style="font-size:55px">&#9734;&#9734;&#9734;&#9734;&#9734;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="stars1" style="font-size:55px">&#9734;&#9734;&#9734;&#9734;&#9734;</p>
+        <p class="stars1" style="font-size:55px" id="plzwrk">&#9734;&#9734;&#9734;&#9734;&#9734;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="stars1" style="font-size:55px">&#9734;&#9734;&#9734;&#9734;&#9734;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="stars1" style="font-size:55px">&#9734;&#9734;&#9734;&#9734;&#9734;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="stars1" style="font-size:55px">&#9734;&#9734;&#9734;&#9734;&#9734;</p>
     </span>
 	<span>
 	</div>
-        <button style="width:22%" id="plz" onclick=submitRating()>Submit Rating plz</button><button style="width:22%">Submit Rating</button><button style="width:22%">Submit Rating</button><button style="width:22%">Submit Rating</button>
+        <button style="width:22%" id="plz" onclick=submitRating("#plz");>Submit Rating plz</button><button style="width:22%">Submit Rating</button><button style="width:22%">Submit Rating</button><button style="width:22%">Submit Rating</button>
 	</span><br><br>
     </div>
 	<div class="e1">

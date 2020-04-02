@@ -20,16 +20,6 @@ function rateText(s){
 	
 }
 
-function submitRating(string){
-	var stars = 0;
-	for(i=0;i<string.length;i++){
-		if(string[i]==="&#9734;"){
-			stars++;
-		}
-	}
-	return stars;
-	
-}
 
 
 
