@@ -42,11 +42,8 @@ public class HomeController {
 	public String contact() {
 		return "contact";
 	}
-	
-	@RequestMapping(value = "/yoga", method = RequestMethod.GET)
-	public String yoga() {
-		return "yoga";
-	}
+
+
 	
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	public String login() {
