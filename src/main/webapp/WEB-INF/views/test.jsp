@@ -1,34 +1,38 @@
 <html>
-   <head>
-      <link rel="stylesheet" href="resources/eventFindrCSS1.css">
-      <!-- Font courtesy of https://fonts.google.com/?selection.family=Cinzel-->
-      <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
-      <!--Font courtesy of https://fonts.google.com/?selection.family=Questrial-->
-      <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
-      <!-- Font courtesy of https://fonts.google.com/?selection.family=Dancing+Scriptl-->
-      <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
-      <title>eventFindr | Host, Dicover, Join</title>
-   </head>
-   <body>
-      <!--Div for banner & text-->
-      <div class="banner">
-         <div class="bannerText">
-            <h1 id="h1">eventFindr</h1>
-            <p>host, discover, join</p>
-         </div>
-      </div>
-      <!--Navigation ID to edit nav-->
-      <nav id="nav">
-         <a class="active" href="/eventFindr/">Home</a>
-         <a href="/eventFindr/test">Test Page</a>
-         <a href="/eventFindr/pastevents">Past Events</a>
-         <a href="FILLIN">FILL IN</a>
-         <a href="FILLIN">FILL IN</a>
-         <a href="FILLIN">FILL IN</a>
-         <a href="FILLIN">FILL IN</a>
-         <a href="FILLIN">FILL IN</a>
-      </nav>
-      <!--CONTENT-->
-      <p>Use this page for testing things if you need.</p>
-   </body>
+<body>
+<h1 th:text="#{label.form.title}">form</h1>
+<form action="/" th:object="${user}" method="POST" enctype="utf8">
+    <div>
+        <label th:text="#{label.user.firstName}">first</label>
+        <input th:field="*{firstName}"/>
+        <p th:each="error: ${#fields.errors('firstName')}"
+          th:text="${error}">Validation error</p>
+    </div>
+    <div>
+        <label th:text="#{label.user.lastName}">last</label>
+        <input th:field="*{lastName}"/>
+        <p th:each="error : ${#fields.errors('lastName')}"
+          th:text="${error}">Validation error</p>
+    </div>
+    <div>
+        <label th:text="#{label.user.email}">email</label>
+        <input type="email" th:field="*{email}"/>
+        <p th:each="error : ${#fields.errors('email')}"
+          th:text="${error}">Validation error</p>
+    </div>
+    <div>
+        <label th:text="#{label.user.password}">password</label>
+        <input type="password" th:field="*{password}"/>
+        <p th:each="error : ${#fields.errors('password')}"
+          th:text="${error}">Validation error</p>
+    </div>
+    <div>
+        <label th:text="#{label.user.confirmPass}">confirm</label>
+        <input type="password" th:field="*{matchingPassword}"/>
+    </div>
+    <button type="submit" th:text="#{label.form.submit}">submit</button>
+</form>
+ 
+<a th:href="@{/login.html}" th:text="#{label.form.loginLink}">login</a>
+</body>
 </html>
