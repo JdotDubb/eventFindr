@@ -18,16 +18,19 @@
       <div class="banner">
          
       </div>
+
       <!--Navigation ID to edit nav-->
+       
       <nav id="nav">
          <a class="active" href="/eventFindr/home">Home</a>
          <a href="/eventFindr/host">Host</a>
          <a href="/eventFindr/discover">Discover</a>
          <a href="/eventFindr/join">Join</a>
          <a href="/eventFindr/pastevents">Past Events</a>
+         <a href="/eventFindr/contact">CONTACT</a>
          <a href="/eventFindr/">Logout</a>
       </nav>
-      <!--CONTENT-->
+       <!--CONTENT-->
       <div class="jumbotron text-center">
          <h1>Join</h1>
          <p>Let's join an event</p>
@@ -40,9 +43,12 @@
                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
             </div>
             <div class="col-sm-4">
-               <h3>Column 2</h3>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+               <h3>YOGA</h3>
+               <p>Yoga is a physical, mental, and spiritual discipline originating in ancient India. 
+               While stretching is certainly involved, yoga is also about creating balance in the body
+               through developing both strength and flexibility.</p>
+               <p><a href="http://www.cvent.com/events/yoga/event-summary-dc73f2830f2849bdaac39913b91fd6d3.aspx">Learn More</a></p>
+             
             </div>
             <div class="col-sm-4">
                <h3>Column 3</h3>

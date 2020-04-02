@@ -18,13 +18,16 @@
       <div class="banner">
          
       </div>
+      
       <!--Navigation ID to edit nav-->
+  
       <nav id="nav">
         <a class="active" href="/eventFindr/home">Home</a>
          <a href="/eventFindr/host">Host</a>
          <a href="/eventFindr/discover">Discover</a>
          <a href="/eventFindr/join">Join</a>
          <a href="/eventFindr/pastevents">Past Events</a>
+         <a href="/eventFindr/contact">CONTACT</a>
          <a href="/eventFindr/">Logout</a>
       </nav>
       <!--CONTENT-->

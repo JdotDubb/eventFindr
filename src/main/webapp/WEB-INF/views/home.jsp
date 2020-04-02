@@ -18,18 +18,22 @@
       <div class="banner">
          
       </div>
+      
       <!--Navigation ID to edit nav-->
+  
       <nav id="nav">
          <a class="active" href="/eventFindr/home">Home</a>
          <a href="/eventFindr/host">Host</a>
          <a href="/eventFindr/discover">Discover</a>
          <a href="/eventFindr/join">Join</a>
          <a href="/eventFindr/pastevents">Past Events</a>
+         <a href="/eventFindr/contact">CONTACT</a>
+      </nav>    
          <a href="/eventFindr/">Logout</a>
       </nav>
       <!--CONTENT-->
       <div class="jumbotron text-center">
-         <h1>event<span style="color: #F66306">Findr</span></h1>
+         <h1>eventFinder</h1>
          <p>Your one stop shop for events</p>
       </div>
       <div class="container">
