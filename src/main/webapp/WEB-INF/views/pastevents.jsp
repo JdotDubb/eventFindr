@@ -1,3 +1,4 @@
+
 <html>
    <head>
       <link rel="stylesheet" href="resources/eventFindrCSS1.css">
@@ -104,4 +105,4 @@
          </span><br><br>
       </div>
    </body>
-</html>
+</html

@@ -1,3 +1,4 @@
+
 <html>
    <head>
       <link rel="stylesheet" href="resources/eventFindrCSS1.css">
@@ -58,4 +59,5 @@
          </div>
       </div>
    </body>
+
 </html>

@@ -9,8 +9,8 @@ public class HomeController {
 	
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String home() {
-		return "home";
+	public String login() {
+		return "login";
 	}
 	
 	@RequestMapping(value = "/test", method = RequestMethod.GET)
@@ -56,4 +56,8 @@ public class HomeController {
 		return "login";
 	}
 	
+	@RequestMapping(value = "/home", method = RequestMethod.GET)
+	public String home() {
+		return "home";
+	}
 }
