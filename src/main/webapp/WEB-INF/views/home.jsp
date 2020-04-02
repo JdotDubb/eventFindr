@@ -16,34 +16,38 @@
    <body>
       <!--Div for banner & text-->
       <div class="banner">
+         
       </div>
+      
       <!--Navigation ID to edit nav-->
+  
       <nav id="nav">
          <a class="active" href="/eventFindr/">Home</a>
          <a href="/eventFindr/host">Host</a>
          <a href="/eventFindr/discover">Discover</a>
          <a href="/eventFindr/join">Join</a>
          <a href="/eventFindr/pastevents">Past Events</a>
-      </nav>
+         <a href="/eventFindr/contact">CONTACT</a>
+      </nav>    
       <!--CONTENT-->
       <div class="jumbotron text-center">
-         <h1>event<span style="color: #F66306">Findr</span></h1>
+         <h1>eventFinder</h1>
          <p>Your one stop shop for events</p>
       </div>
       <div class="container">
          <div class="row">
             <div class="col-sm-4">
-               <h1>Eventful</h1>
-               <p>Lets see whats on eventful.</p>
-               <p><a href="/eventFindr/login">Check it out!</a></p>
-            </div>
-            <div class="col-sm-4">
-               <h1>Meetup</h1>
+               <h3>Column 1</h3>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
             </div>
             <div class="col-sm-4">
-               <h1>eventBrite</h1>
+               <h3>Column 2</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+            </div>
+            <div class="col-sm-4">
+               <h3>Column 3</h3>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
             </div>

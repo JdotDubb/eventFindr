@@ -16,14 +16,18 @@
       <div class="banner">
          
       </div>
+          
       <!--Navigation ID to edit nav-->
+   
       <nav id="nav">
          <a class="active" href="/eventFindr/">Home</a>
          <a href="/eventFindr/host">Host</a>
          <a href="/eventFindr/discover">Discover</a>
          <a href="/eventFindr/join">Join</a>
          <a href="/eventFindr/pastevents">Past Events</a>
+         <a href="/eventFindr/contact">CONTACT</a>
       </nav>
+      
       <!--CONTENT-->
       </head>
       <script>
@@ -36,7 +40,7 @@
          	stars = $text.toString().length;
          	alert(stars);
          }
-         	
+       
                
       </script>
       <div class="e1">
@@ -55,7 +59,7 @@
             </span>
             <span>
          </div>
-         <button style="width:22%" id="plz" onclick=submitRating()>Submit Rating plz</button><button style="width:22%">Submit Rating</button><button style="width:22%">Submit Rating</button><button style="width:22%">Submit Rating</button>
+         <button style="width:22%" id="plz" onclick=submitRating()>Submit Rating</button><button style="width:22%">Submit Rating</button><button style="width:22%">Submit Rating</button><button style="width:22%">Submit Rating</button>
          </span><br><br>
       </div>
       <div class="e1">
