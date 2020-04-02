@@ -13,10 +13,11 @@
    </head>
    <body>
       <!--Div for banner & text-->
-      <div class="banner">
-         
+      <div class="banner">         
       </div>
-          
+      <div class="search-button">
+      	<a href="#" class="search-toggle" data-selector="#header-3"></a>
+      </div>
       <!--Navigation ID to edit nav-->
    
       <nav id="nav">
@@ -27,7 +28,9 @@
          <a href="/eventFindr/pastevents">Past Events</a>
          <a href="/eventFindr/contact">CONTACT</a>
       </nav>
-      
+      	<form action="" class="search-box">
+      		<input type="text" class="text search-input" placeholder="Type here to search..." />
+   	  	</form>
       <!--CONTENT-->
       </head>
       <script>

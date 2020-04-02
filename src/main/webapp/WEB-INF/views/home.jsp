@@ -15,12 +15,12 @@
    </head>
    <body>
       <!--Div for banner & text-->
-      <div class="banner">
-         
+      <div class="banner">         
       </div>
-      
-      <!--Navigation ID to edit nav-->
-  
+      <div class="search-button">
+      	<a href="#" class="search-toggle" data-selector="#header-3"></a>
+      </div>
+      <!--Navigation ID to edit nav-->       
       <nav id="nav">
          <a class="active" href="/eventFindr/">Home</a>
          <a href="/eventFindr/host">Host</a>
@@ -28,7 +28,11 @@
          <a href="/eventFindr/join">Join</a>
          <a href="/eventFindr/pastevents">Past Events</a>
          <a href="/eventFindr/contact">CONTACT</a>
-      </nav>    
+         <a href="/eventFindr/signup">SIGN UP</a>
+         <form action="" class="search-box">
+      		<input type="text" class="text search-input" placeholder="Type here to search..." />
+    	</form>
+      </nav>
       <!--CONTENT-->
       <div class="jumbotron text-center">
          <h1>eventFinder</h1>
@@ -37,17 +41,17 @@
       <div class="container">
          <div class="row">
             <div class="col-sm-4">
-               <h3>Column 1</h3>
+               <h3>Eventful</h3>               
+               <p>Lets see whats on eventful.</p>
+               <p><a href="https://webpages.uncc.edu/jweath17/eventFindr/login.jsp">Check it out!</a></p>         
+            </div>
+            <div class="col-sm-4">
+               <h3>Meetup</h3>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
             </div>
             <div class="col-sm-4">
-               <h3>Column 2</h3>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-            </div>
-            <div class="col-sm-4">
-               <h3>Column 3</h3>
+               <h3>eventBrite</h3>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
             </div>
