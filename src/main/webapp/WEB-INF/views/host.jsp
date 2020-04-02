@@ -1,3 +1,4 @@
+
 <html>
    <head>
       <link rel="stylesheet" href="resources/eventFindrCSS1.css">
@@ -15,20 +16,23 @@
    </head>
    <body>
       <!--Div for banner & text-->
-      <div class="banner">
-         
+      <div class="banner">         
       </div>
-      
-      <!--Navigation ID to edit nav-->
-  
+      <div class="search-button">
+      	<a href="#" class="search-toggle" data-selector="#header-3"></a>
+      </div>
+      <!--Navigation ID to edit nav-->       
       <nav id="nav">
-        <a class="active" href="/eventFindr/home">Home</a>
+         <a class="active" href="/eventFindr/">Home</a>
          <a href="/eventFindr/host">Host</a>
          <a href="/eventFindr/discover">Discover</a>
          <a href="/eventFindr/join">Join</a>
          <a href="/eventFindr/pastevents">Past Events</a>
          <a href="/eventFindr/contact">CONTACT</a>
-         <a href="/eventFindr/">Logout</a>
+         <a href="/eventFindr/signup">SIGN UP</a>
+         <form action="" class="search-box">
+      		<input type="text" class="text search-input" placeholder="Type here to search..." />
+    	</form>
       </nav>
       <!--CONTENT-->
       <div class="jumbotron text-center">
@@ -55,4 +59,5 @@
          </div>
       </div>
    </body>
+
 </html>

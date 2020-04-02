@@ -1,3 +1,4 @@
+
 <html>
    <head>
       <link rel="stylesheet" href="resources/eventFindrCSS1.css">
@@ -17,42 +18,47 @@
       <!--Div for banner & text-->
       <div class="banner">
       </div>
-      
-      <!--Navigation ID to edit nav-->
+      <div class="search-button">
+      	<a href="#" class="search-toggle" data-selector="#header-3"></a>
+      </div>
   
+      <!--Navigation ID to edit nav-->       
       <nav id="nav">
-         <a class="active" href="/eventFindr/home">Home</a>
+         <a class="active" href="/eventFindr/">Home</a>
          <a href="/eventFindr/host">Host</a>
          <a href="/eventFindr/discover">Discover</a>
          <a href="/eventFindr/join">Join</a>
          <a href="/eventFindr/pastevents">Past Events</a>
          <a href="/eventFindr/contact">CONTACT</a>
-         <a href="/eventFindr/">Logout</a>
-
+         <a href="/eventFindr/signup">SIGN UP</a>
+         <form action="" class="search-box">
+      		<input type="text" class="text search-input" placeholder="Type here to search..." />
+    	</form>
       </nav>
       <!--CONTENT-->
       <div class="jumbotron text-center">
          <h1>Discover</h1>
-         <p>Search multiple sites here for your next event</p>
+         <p>Let's find your next event</p>
       </div>
       <div class="container">
          <div class="row">
             <div class="col-sm-4">
-               <h1>Eventful</h1>
-               <p><h3>Lets see whats on eventful</h3></p>
-               <p><a href="/eventFindr/login">Check it out!</a></p>
-            </div>
-            <div class="col-sm-4">
-               <h1>Meetup</h1>
+               <h3>Column 1</h3>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
             </div>
             <div class="col-sm-4">
-               <h1>eventBrite</h1>
+               <h3>Column 2</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+            </div>
+            <div class="col-sm-4">
+               <h3>Column 3</h3>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
             </div>
          </div>
       </div>
    </body>
+
 </html>

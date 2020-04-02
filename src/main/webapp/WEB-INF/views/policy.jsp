@@ -1,4 +1,3 @@
-
 <html>
    <head>
       <link rel="stylesheet" href="resources/eventFindrCSS1.css">
@@ -19,7 +18,7 @@
       <div class="banner">
       </div>
 	  <div class="search-button">
-      	<a href="#" class="search-toggle" data-selector="#header-3"></a>
+      	<a href="#" class="search-toggle" data-selector="#header-1"></a>
       </div>
       <!--Navigation ID to edit nav-->       
       <nav id="nav">
@@ -29,7 +28,6 @@
          <a href="/eventFindr/join">Join</a>
          <a href="/eventFindr/pastevents">Past Events</a>
          <a href="/eventFindr/contact">CONTACT</a>
-         <a href="/eventFindr/signup">SIGN UP</a>
          <form action="" class="search-box">
       		<input type="text" class="text search-input" placeholder="Type here to search..." />
     	</form>
@@ -37,30 +35,26 @@
        <!--CONTENT-->
       <div class="jumbotron text-center">
          <h1>Join</h1>
-         <p>Let's join an event</p>
+         <p>eventFindr Privacy & Terms</p>
       </div>
       <div class="container">
          <div class="row">
             <div class="col-sm-4">
-               <h3>Column 1</h3>
+               <h3>Term of Services</h3>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
             </div>
             <div class="col-sm-4">
-               <h3>YOGA</h3>
-               <p>Yoga is a physical, mental, and spiritual discipline originating in ancient India. 
-               While stretching is certainly involved, yoga is also about creating balance in the body
-               through developing both strength and flexibility.</p>
-               <p><a href="http://www.cvent.com/events/yoga/event-summary-dc73f2830f2849bdaac39913b91fd6d3.aspx">Learn More</a></p>
-             
+               <h3>Code of Conduct</h3>
+            	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+               	<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>           
             </div>
             <div class="col-sm-4">
-               <h3>Column 3</h3>
+               <h3>Private Policy</h3>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
             </div>
          </div>
       </div>
    </body>
-
 </html>

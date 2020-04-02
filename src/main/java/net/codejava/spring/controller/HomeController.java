@@ -38,13 +38,19 @@ public class HomeController {
 		return "join";
 	}
 	
+	@RequestMapping(value = "/signup", method = RequestMethod.GET)
+	public String signup() {
+		return "signup";
+	}
+	
+	@RequestMapping(value = "/policy", method = RequestMethod.GET)
+	public String policy() {
+		return "policy";
+	}
 	@RequestMapping(value = "/contact", method = RequestMethod.GET)
 	public String contact() {
 		return "contact";
 	}
-
-
-	
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	public String login() {
 		return "login";
