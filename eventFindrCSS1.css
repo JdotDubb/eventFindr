@@ -60,3 +60,7 @@ display: inline-block;
 ::selection{
 color:yellow;
 }
+
+#pastBody{
+background-color:#004466;
+}

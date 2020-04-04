@@ -26,7 +26,7 @@ function submitRating(buttonID){
 			
 			 if($str.length==1){
 			$node.innerText=$str
-			while($node.innerText.length<20){
+			while($node.innerText.length<17){
 				$node.innerText+="\u00A0"
 			}}
 			
@@ -38,7 +38,7 @@ function submitRating(buttonID){
 			
 			else if($str.length==3){
 			$node.innerText=$str
-			while($node.innerText.length<15){
+			while($node.innerText.length<12){
 				$node.innerText+="\u00A0"
 			}}
 			
@@ -59,7 +59,8 @@ function submitRating(buttonID){
          	//stars = $node.toString().length;
 			//if(starCount>=5)
 				//starCount=5
-			document.getElementById("plzwrk").style.color = "yellow"
+			//document.getElementById("plzwrk").style.color = "yellow"
+			$node.style.color = "yellow"
 			//$node.css("color","yellow")
          	alert($str.length);
 			//$(buttonID).remove()
@@ -69,6 +70,7 @@ function submitRating(buttonID){
       </script>
 	  
 </head>
+<body id="pastBody">
 
 <div class="e1">
         <div class="il">
@@ -83,7 +85,7 @@ function submitRating(buttonID){
     </span>
 	<span>
 	</div>
-        <button style="width:22%" id="plz" onclick=submitRating("#plz");>Submit Rating plz</button><button style="width:22%">Submit Rating</button><button style="width:22%">Submit Rating</button><button style="width:22%">Submit Rating</button>
+        <button style="width:22%" id="plz" onclick=submitRating("#plz");>Submit Rating</button><button style="width:22%" id="weh" onclick=submitRating("#weh")>Submit Rating</button><button style="width:22%" id="3" onclick=submitRating("#3");>Submit Rating</button><button style="width:22%" id=4 onclick=submitRating("#4");>Submit Rating</button>
 	</span><br><br>
     </div>
 	<div class="e1">
@@ -99,7 +101,7 @@ function submitRating(buttonID){
     </span>
 	<span>
 	</div>
-        <button style="width:22%">Submit Rating</button><button style="width:22%">Submit Rating</button><button style="width:22%">Submit Rating</button><button style="width:22%">Submit Rating</button>
+        <button style="width:22%" id="5" onclick=submitRating("#5");>Submit Rating</button><button style="width:22%" id="6" onclick=submitRating("#6");>Submit Rating</button><button style="width:22%" id="7" onclick=submitRating("#7");>Submit Rating</button><button style="width:22%" id="8" onclick=submitRating("#8");>Submit Rating</button>
 	</span><br><br>
     </div>
 	<div class="e1">
@@ -115,7 +117,10 @@ function submitRating(buttonID){
     </span>
 	<span>
 	</div>
-        <button style="width:22%">Submit Rating</button><button style="width:22%">Submit Rating</button><button style="width:22%">Submit Rating</button><button style="width:22%">Submit Rating</button>
+        <button style="width:22%" id="9" onclick=submitRating("#9");>Submit Rating</button><button style="width:22%" id="10" onclick=submitRating("#10");>Submit Rating</button><button style="width:22%" id="11" onclick=submitRating("#11");>Submit Rating</button><button style="width:22%" id="12" onclick=submitRating("#12");>Submit Rating</button>
 	</span><br><br>
     </div>
+
+</body>
+
 	</html>
