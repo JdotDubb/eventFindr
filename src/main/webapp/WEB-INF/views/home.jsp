@@ -36,7 +36,7 @@
       </nav>
       <!--CONTENT-->
       <div class="jumbotron text-center">
-         <h1>eventFinder</h1>
+         <h1>event<span style="color: #F66306">Findr</span></h1>
          <p>Your one stop shop for events</p>
       </div>
       <div class="container">
