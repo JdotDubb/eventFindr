@@ -60,4 +60,9 @@ public class HomeController {
 	public String home() {
 		return "home";
 	}
+	
+	@RequestMapping(value = "/eventful1", method = RequestMethod.GET)
+	public String eventful1() {
+		return "eventful1";
+	}
 }

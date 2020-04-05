@@ -125,25 +125,7 @@ hr {
 }
 </style>
 <body>
-      <!--Div for banner & text-->
-      <div class="banner">
-      </div>
-	  <div class="search-button">
-      	<a href="#" class="search-toggle" data-selector="#header-3"></a>
-      </div>
-      <!--Navigation ID to edit nav-->       
-      <nav id="nav">
-         <a class="active" href="/eventFindr/">Home</a>
-         <a href="/eventFindr/host">Host</a>
-         <a href="/eventFindr/discover">Discover</a>
-         <a href="/eventFindr/join">Join</a>
-         <a href="/eventFindr/pastevents">Past Events</a>
-         <a href="/eventFindr/contact">CONTACT</a>
-         <a href="/eventFindr/signup">SIGN UP</a>
-         <form action="" class="search-box">
-      		<input type="text" class="text search-input" placeholder="Type here to search..." />
-    	</form>
-      </nav>
+      
        <!--CONTENT-->
       <div class="jumbotron text-center">
          <h1>Welcome</h1>
@@ -152,10 +134,12 @@ hr {
       <h2>Please sign up here</h2>
 
 <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+<br>
+<a href="/eventFindr/" style="width:auto;">Back</a>
 
 <div id="id01" class="modal">
   <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-  <form class="modal-content" action="/action_page.php">
+  <form class="modal-content" action="/eventFindr/home">
     <div class="container">
       <h1>Sign Up</h1>
       <p>Please fill in this form to create an account.</p>

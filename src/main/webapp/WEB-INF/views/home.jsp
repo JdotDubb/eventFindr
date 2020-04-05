@@ -29,7 +29,7 @@
          <a href="/eventFindr/join">Join</a>
          <a href="/eventFindr/pastevents">Past Events</a>
          <a href="/eventFindr/contact">CONTACT</a>
-         <a href="/eventFindr/signup">SIGN UP</a>
+         <a href="/eventFindr/">LogOut</a>
          <form action="" class="search-box">
       		<input type="text" class="text search-input" placeholder="Type here to search..." />
     	</form>

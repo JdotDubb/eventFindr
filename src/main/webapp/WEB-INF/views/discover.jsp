@@ -24,13 +24,13 @@
   
       <!--Navigation ID to edit nav-->       
       <nav id="nav">
-         <a class="active" href="/eventFindr/">Home</a>
+         <a class="active" href="/eventFindr/home">Home</a>
          <a href="/eventFindr/host">Host</a>
          <a href="/eventFindr/discover">Discover</a>
          <a href="/eventFindr/join">Join</a>
          <a href="/eventFindr/pastevents">Past Events</a>
          <a href="/eventFindr/contact">CONTACT</a>
-         <a href="/eventFindr/signup">SIGN UP</a>
+         <a href="/eventFindr/">Logout</a>
          <form action="" class="search-box">
       		<input type="text" class="text search-input" placeholder="Type here to search..." />
     	</form>
@@ -43,19 +43,20 @@
       <div class="container">
          <div class="row">
             <div class="col-sm-4">
-               <h3>Column 1</h3>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+               <img src="resources/eventfulLogo.png" width="150" height="150">
+               <h3>Explore events from Eventful.com</h3>
+               <p><a href="eventful1" class="btn btn-primary btn-block">Discover</a></p>
             </div>
             <div class="col-sm-4">
-               <h3>Column 2</h3>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+               <img src="resources/meetupLogo.png" width="150" height="150">
+               <h3>See what meetup.com has</h3>
+               <p><a href="eventful1" class="btn btn-primary btn-block">Discover</a></p>
             </div>
             <div class="col-sm-4">
-               <h3>Column 3</h3>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+               
+               <img src="resources/eventbriteLogo.png"width="150" height="150">
+				<h3>Search through eventBrite.com</h3>
+             <p><a href="eventful1" class="btn btn-primary btn-block">Discover</a></p>
             </div>
          </div>
       </div>
