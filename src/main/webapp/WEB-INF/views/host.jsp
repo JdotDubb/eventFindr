@@ -38,6 +38,7 @@
       <div class="jumbotron text-center">
          <h1>Host</h1>
          <p>Let's get your event started</p>
+         <button class="add-event">Add Event</button>
       </div>
       <div class="container">
          <div class="row">
