@@ -1,3 +1,9 @@
+<?php
+if($_POST["message"]) {
+    mail("jweath17@uncc.edu", "Form to email message", $_POST["message"], "From: an@email.address");
+}
+?>
+
 <html>
    <head>
       <link rel="stylesheet" href="resources/eventFindrCSS1.css">
@@ -105,7 +111,7 @@ input[type=submit]:hover {
   			<div class="row">
 
     			<div class="column">
-      				<form action="/action_page.php">
+      				<form action="/eventFindr/contact">
         				<label for="fname">First Name</label>
         				<input type="text" id="fname" name="firstname" placeholder="Your name..">	
         				<label for="lname">Last Name</label>
