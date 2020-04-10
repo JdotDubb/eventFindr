@@ -41,17 +41,19 @@
       <div class="container">
          <div class="row">
             <div class="col-sm-4">
-               <h3>Column 1</h3>
+               <h3>Create Event</h3>
+               <p>You can create an event up for free. There are 3 main steps to create your event: 1: sign up or log in to your account,
+                 There are 3 main steps to create your event: 1: Event Details, 2: fill in the required info:, and 3: create tickets for 
+                 for your event. </p>
+               <p><a href="/eventFindr/create">Create</a></p>
+            </div>
+            <div class="col-sm-4">
+               <h3>View Event</h3>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
             </div>
             <div class="col-sm-4">
-               <h3>Column 2</h3>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-            </div>
-            <div class="col-sm-4">
-               <h3>Column 3</h3>
+               <h3>Upcoming Events</h3>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
             </div>

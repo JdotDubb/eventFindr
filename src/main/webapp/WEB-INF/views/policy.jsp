@@ -18,23 +18,46 @@
       <div class="banner">
       </div>
 	  <div class="search-button">
-      	<a href="#" class="search-toggle" data-selector="#header-1"></a>
+      	<a href="#" class="search-toggle" data-selector="#header-3"></a>
       </div>
+      
+      
       <!--Navigation ID to edit nav-->       
       <nav id="nav">
-         <a class="active" href="/eventFindr/">Home</a>
-         <a href="/eventFindr/host">Host</a>
-         <a href="/eventFindr/discover">Discover</a>
-         <a href="/eventFindr/join">Join</a>
-         <a href="/eventFindr/pastevents">Past Events</a>
-         <a href="/eventFindr/contact">CONTACT</a>
+      <ul>
+        <li><a class="active" href="/eventFindr/">Home</a></li>
+         
+         <li><a href="/eventFindr/host">Host</a></li>
+         <ul>
+            <li><a href="#">Sub Menu 1</a></li>
+      		<li><a href="#">Sub Menu 2</a></li>
+     	    <li><a href="#">Sub Menu 3</a></li>
+     		<li><a href="#">Sub Menu 45</a>
+        <ul>
+          <li><a href="#">Deep Menu 1</a>
+            <ul>
+              <li><a href="#">Sub Deep 12</a></li>
+              <li><a href="#">Sub Deep 2</a></li>
+              <li><a href="#">Sub Deep 3</a></li>
+                <li><a href="#">Sub Deep 4</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Deep Menu 22</a></li>
+        </ul>
+      </li>
+         <li><a href="/eventFindr/discover">Discover</a></li>
+         <li><a href="/eventFindr/join">Join</a></li>
+         <li><a href="/eventFindr/pastevents">Past Events</a></li>
+         <li><a href="/eventFindr/contact">CONTACT</a></li>
+         <li><a href="/eventFindr/signup">SIGN UP</a></li>
+         
          <form action="" class="search-box">
       		<input type="text" class="text search-input" placeholder="Type here to search..." />
     	</form>
       </nav>
        <!--CONTENT-->
       <div class="jumbotron text-center">
-         <h1>Join</h1>
+         <h1>eventFindr</h1>
          <p>eventFindr Privacy & Terms</p>
       </div>
       <div class="container">

@@ -21,7 +21,7 @@
       	<a href="#" class="search-toggle" data-selector="#header-3"></a>
       </div>
       <!--Navigation ID to edit nav-->       
-      <nav id="nav">
+      <nav id="nav" class="primary-nav">
          <a class="active" href="/eventFindr/">Home</a>
          <a href="/eventFindr/host">Host</a>
          <a href="/eventFindr/discover">Discover</a>
