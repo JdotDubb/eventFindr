@@ -1,9 +1,3 @@
-<?php
-if($_POST["message"]) {
-    mail("jweath17@uncc.edu", "Form to email message", $_POST["message"], "From: an@email.address");
-}
-?>
-
 <html>
    <head>
       <link rel="stylesheet" href="resources/eventFindrCSS1.css">
