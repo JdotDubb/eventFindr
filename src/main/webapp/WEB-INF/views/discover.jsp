@@ -1,4 +1,5 @@
 
+
 <html>
    <head>
       <link rel="stylesheet" href="resources/eventFindrCSS1.css">
@@ -44,8 +45,8 @@
          <div class="row">
             <div class="col-sm-4">
                <img src="resources/eventfulLogo.png" width="150" height="150">
-               <h3>Explore events from Eventful.com</h3>
-               <p><a href="eventful1" class="btn btn-primary btn-block">Discover</a></p>
+               <br>
+               <a href="/eventFindr/eventful1" class="add-event">Discover</a>
             </div>
             <div class="col-sm-4">
                <img src="resources/meetupLogo.png" width="150" height="150">
