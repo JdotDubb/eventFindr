@@ -74,3 +74,19 @@ background-color:#004466;
 .add-event:hover {
 	background-color: white;
 }
+
+#images{
+    display: block;
+    text-align: center;
+
+}
+
+img{
+    display: horizontal;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: auto;
+    height: auto;
+}
