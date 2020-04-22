@@ -49,18 +49,17 @@
                <a href="/eventFindr/eventful1" class="add-event">Discover</a>
             </div>
             <div class="col-sm-4">
-               <img src="resources/meetupLogo.png" width="150" height="150">
-               <h3>See what meetup.com has</h3>
-               <p><a href="eventful1" class="btn btn-primary btn-block">Discover</a></p>
+               <img src="resources/meetupLogo1.png" width="150" height="150">
+               <br>
+               <a href="/eventFindr/eventful1" class="add-event">Discover</a>
             </div>
             <div class="col-sm-4">
-               
-               <img src="resources/eventbriteLogo.png"width="150" height="150">
-				<h3>Search through eventBrite.com</h3>
-             <p><a href="eventful1" class="btn btn-primary btn-block">Discover</a></p>
+               <img src="resources/Eventbrite.jpg" width="150" height="150">
+               <br>
+               <a href="/eventFindr/eventful1" class="add-event">Discover</a>
             </div>
-         </div>
-      </div>
+
+   
    </body>
 
 </html>
