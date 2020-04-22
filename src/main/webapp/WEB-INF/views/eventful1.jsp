@@ -53,13 +53,13 @@
       <div class="row">
       <div class="col-md-4">
          <div class="card mb-4 box-shadow">
-            <img class="card-img-top" img src="https://pixabay.com/get/5ee6dd434d56b10ff3d89960c62d3f79113ed7e05a57_640.jpg" alt="Card image cap">
+            <img class="card-img-top" img src="resources/music1.jpg" alt="Card image cap">
             <div class="card-body">
                <h1>Music</h1>
                <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                      <!-- Trigger/Open The Modal -->
-                     <a href="https://eventful.com/events/search?app_key=bFSxGSgbJxg75vp8"&keywords=music&location=charlotte%north%carolina" target="iframe" id="myBtn" class="add-event">View</a>
+                     <a href="https://charlotte.eventful.com/events/search?keywords=music&location=charlotte%north%carolina&app_key=bFSxGSgbJxg75vp8" target="iframe" id="myBtn" class="add-event">View</a>
                      <!-- The Modal -->
                      <div id="myModal" class="modal">
                         <!-- Modal content -->
@@ -75,13 +75,13 @@
       </div>
       <div class="col-md-4">
          <div class="card mb-4 box-shadow">
-            <img class="card-img-top" img src="https://pixabay.com/get/54e5dc414856ab14f1dc8460da293276123bdce45b5277_640.jpg" alt="Card image cap">
+            <img class="card-img-top" img src="resources/fitness1.jpg" alt="Card image cap">
             <div class="card-body">
                <h1>Fitness</h1>
                <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                      <!-- Trigger/Open The Modal -->
-                     <a href="https://eventful.com/events/search?app_key=bFSxGSgbJxg75vp8"&keywords=fitness&location=charlotte%north%carolina" target="iframe" id="myBtn" class="add-event">View</a>
+                     <a href="https://charlotte.eventful.com/events/search?keywords=fitness&location=charlotte%north%carolina&app_key=bFSxGSgbJxg75vp8" target="iframe" id="myBtn" class="add-event">View</a>
                      <!-- The Modal -->
                      <div id="myModal" class="modal">
                         <!-- Modal content -->
@@ -97,13 +97,13 @@
       </div>
       <div class="col-md-4">
          <div class="card mb-4 box-shadow">
-            <img class="card-img-top" img src="https://pixabay.com/get/54e4d7464b50ad14f1dc8460da293276123bdce7535377_640.jpg" alt="Card image cap">
+            <img class="card-img-top" img src="resources/pets1.jpg" alt="Card image cap">
             <div class="card-body">
                <h1>Pets</h1>
                <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                      <!-- Trigger/Open The Modal -->
-                     <a href="https://eventful.com/events/search?keywords=pets&location=charlotte%north%carolina&app_key=bFSxGSgbJxg75vp8" target="iframe" id="myBtn" class="add-event">View</a>
+                     <a href="https://charlotte.eventful.com/events/search?keywords=pets&location=charlotte%north%carolina&app_key=bFSxGSgbJxg75vp8" target="iframe" id="myBtn" class="add-event">View</a>
                      <!-- The Modal -->
                      <div id="myModal" class="modal">
                         <!-- Modal content -->
@@ -119,13 +119,13 @@
       </div>
       <div class="col-md-4">
          <div class="card mb-4 box-shadow">
-            <img class="card-img-top" img src="https://pixabay.com/get/55e8d7414e5aa514f1dc8460da293276123bdce7525271_640.jpg" alt="Card image cap">
+            <img class="card-img-top" img src="resources/food1.jpg" alt="Card image cap">
             <div class="card-body">
-               <h1>LGBTQ Pride</h1>
+               <h1>Food</h1>
                <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                      <!-- Trigger/Open The Modal -->
-                     <a href="https://eventful.com/events/search?app_key=bFSxGSgbJxg75vp8"&keywords=fitness&location=charlotte%north%carolina" target="iframe" id="myBtn" class="add-event">View</a>
+                     <a href="https://charlotte.eventful.com/events/search?keywords=food&location=charlotte%north%carolina&app_key=bFSxGSgbJxg75vp8" target="iframe" id="myBtn" class="add-event">View</a>
                      <!-- The Modal -->
                      <div id="myModal" class="modal">
                         <!-- Modal content -->
@@ -141,13 +141,13 @@
       </div>
       <div class="col-md-4">
          <div class="card mb-4 box-shadow">
-            <img class="card-img-top" img src="https://pixabay.com/get/57e8d0434b5aa814f1dc8460da293276123bdce7515075_640.jpg" alt="Card image cap">
+            <img class="card-img-top" img src="resources/ballet1.jpg" alt="Card image cap">
             <div class="card-body">
                <h1>Ballet</h1>
                <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                      <!-- Trigger/Open The Modal -->
-                     <a href="https://eventful.com/events/search?app_key=bFSxGSgbJxg75vp8"&keywords=fitness&location=charlotte%north%carolina" target="iframe" id="myBtn" class="add-event">View</a>
+                     <a href="https://charlotte.eventful.com/events/search?keywords=ballet&location=charlotte%north%carolina&app_key=bFSxGSgbJxg75vp8" target="iframe" id="myBtn" class="add-event">View</a>
                      <!-- The Modal -->
                      <div id="myModal" class="modal">
                         <!-- Modal content -->
@@ -163,13 +163,13 @@
       </div>
       <div class="col-md-4">
          <div class="card mb-4 box-shadow">
-            <img class="card-img-top" img src="https://pixabay.com/get/57e9d24a4855ae14f1dc8460da293276123bdce7515973_640.jpg" alt="Card image cap">
+            <img class="card-img-top" img src="resources/cooking1.jpg" alt="Card image cap">
             <div class="card-body">
                <h1>Cooking</h1>
                <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                      <!-- Trigger/Open The Modal -->
-                     <a href="https://eventful.com/events/search?app_key=bFSxGSgbJxg75vp8"&keywords=fitness&location=charlotte%north%carolina" target="iframe" id="myBtn" class="add-event">View</a>
+                     <a href="https://charlotte.eventful.com/events/search?keywords=cooking&location=charlotte%north%carolina&app_key=bFSxGSgbJxg75vp8" target="iframe" id="myBtn" class="add-event">View</a>
                      <!-- The Modal -->
                      <div id="myModal" class="modal">
                         <!-- Modal content -->
@@ -185,13 +185,13 @@
       </div>
       <div class="col-md-4">
          <div class="card mb-4 box-shadow">
-            <img class="card-img-top" img src="https://pixabay.com/get/55e1d74a4954ad14f1dc8460da293276123bdce7565975_640.jpg" alt="Card image cap">
+            <img class="card-img-top" img src="resources/paint1.jpg" alt="Card image cap">
             <div class="card-body">
                <h1>Painting</h1>
                <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                      <!-- Trigger/Open The Modal -->
-                     <a href="https://eventful.com/events/search?app_key=bFSxGSgbJxg75vp8"&keywords=fitness&location=charlotte%north%carolina" target="iframe" id="myBtn" class="add-event">View</a>
+                     <a href="https://charlotte.eventful.com/events/search?keywords=painting&app_key=bFSxGSgbJxg75vp8" target="iframe" id="myBtn" class="add-event">View</a>
                      <!-- The Modal -->
                      <div id="myModal" class="modal">
                         <!-- Modal content -->
@@ -207,13 +207,13 @@
       </div>
       <div class="col-md-4">
          <div class="card mb-4 box-shadow">
-            <img class="card-img-top" img src="https://pixabay.com/get/55e4d7454b5aab14f1dc8460da293276123bdce7555673_640.jpg" alt="Card image cap">
+            <img class="card-img-top" img src="resources/spirit1.jpg" alt="Card image cap">
             <div class="card-body">
                <h1>Spiritual</h1>
                <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                      <!-- Trigger/Open The Modal -->
-                     <a href="https://eventful.com/events/search?app_key=bFSxGSgbJxg75vp8"&keywords=fitness&location=charlotte%north%carolina" target="iframe" id="myBtn" class="add-event">View</a>
+                     <a href="https://charlotte.eventful.com/events/search?keywords=spiritual&app_key=bFSxGSgbJxg75vp8" target="iframe" id="myBtn" class="add-event">View</a>
                      <!-- The Modal -->
                      <div id="myModal" class="modal">
                         <!-- Modal content -->
@@ -229,29 +229,21 @@
       </div>
       <div class="col-md-4">
          <div class="card mb-4 box-shadow">
-            <img class="card-img-top" img src="https://pixabay.com/get/54e2d04a4b5bad14f1dc8460da293276123bdce7545570_640.jpg" alt="Card image cap">
+            <img class="card-img-top" img src="resources/game1.jpg" alt="Card image cap">
             <div class="card-body">
                <h1>Gaming</h1>
                <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                     <button type="button" class="add-event" data-toggle="modal" data-target="#myModal">View</button>
-                     <!-- Modal -->
-                     <div class="modal fade" id="myModal" role="dialog">
-                        <div class="modal-dialog">
-                           <!-- Modal content-->
-                           <div class="modal-content">
-                              <div class="modal-header">
-                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                 <h4 class="modal-title">Eventful</h4>
-                              </div>
-                              <div class="modal-body">
-                                 <p>test</p>
-                              </div>
-                           </div>
+                     <!-- Trigger/Open The Modal -->
+                     <a href="https://charlotte.eventful.com/events/search?keywords=gaming&app_key=bFSxGSgbJxg75vp8" target="iframe" id="myBtn" class="add-event">View</a>
+                     <!-- The Modal -->
+                     <div id="myModal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                           <span class="close" title="Close">x</span>
+                           <iframe name="iframe_a" width="95%"height="600px"></iframe> 
                         </div>
                      </div>
-                     <!--ADD API STUFF HERE-->
-                     <!--END API STUFF-->
                   </div>
                </div>
             </div>
