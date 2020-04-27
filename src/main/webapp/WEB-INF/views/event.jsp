@@ -1,5 +1,3 @@
-
-
 <html>
    <head>
       <link rel="stylesheet" href="resources/eventFindrCSS1.css">
@@ -12,6 +10,13 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script>
+         function rsvp(buttonID){
+         //alert("ass")
+         $(buttonID).text("RSVPd to Event Name");
+         }
+      </script>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
       <title>eventFindr | Host, Dicover, Join</title>
    </head>
@@ -20,9 +25,8 @@
       <div class="banner">
       </div>
       <div class="search-button">
-      	<a href="#" class="search-toggle" data-selector="#header-3"></a>
+         <a href="#" class="search-toggle" data-selector="#header-3"></a>
       </div>
-  
       <!--Navigation ID to edit nav-->       
       <nav id="nav">
          <a class="active" href="/eventFindr/home">Home</a>
@@ -34,33 +38,34 @@
          <a href="/eventFindr/contact">Contact</a>
          <a href="/eventFindr/">Logout</a>
          <form action="" class="search-box">
-      		<input type="text" class="text search-input" placeholder="Type here to search..." />
-    	</form>
+            <input type="text" class="text search-input" placeholder="Type here to search..." />
+         </form>
       </nav>
       <!--CONTENT-->
       <div class="jumbotron text-center">
-         <h1>Discover</h1>
-         <p>Find events from other event sites</p>
+         <h1>Events</h1>
+         <p>Let's find your next event</p>
       </div>
-      <div class="container">
-         <div class="row">
-            <div class="col-sm-4">
-               <img src="resources/eventfulLogo.png" width="150" height="150">
-               <br>
-               <a href="/eventFindr/eventful1" class="add-event">Discover</a>
-            </div>
-            <div class="col-sm-4">
-               <img src="resources/meetupLogo1.png" width="150" height="150">
-               <br>
-               <a href="/eventFindr/eventful1" class="add-event">Discover</a>
-            </div>
-            <div class="col-sm-4">
-               <img src="resources/Eventbrite.jpg" width="150" height="150">
-               <br>
-               <a href="/eventFindr/eventful1" class="add-event">Discover</a>
-            </div>
-
-   
+      <body id="events">
+         <h1 style=text-align:center;>Event Name</h1>
+         <br>
+         <img src="resources/TODOimage.png" style="width:22%; display: block; margin-left: auto; margin-right: auto; width: 50%;" alt="eventName"><br>
+         <div style=text-align:center>
+            <p>Name: Event Name</p>
+            <br>
+            <p>Address: Event Adress</p>
+            <br>
+            <p>Time: Time of Event</p>
+            <br>
+            <p>Date: Date of Event</p>
+            <br>
+            <p>Price of Admission: Admission Price</p>
+            <br>
+            <p>Tags:List of Tags</p>
+            <br>
+            <p>Description: Event Description</p>
+            <br>
+            <button id="rsvp" onclick=rsvp("#rsvp")>RSVP to Event</button>
+         </div>
    </body>
-
 </html>
