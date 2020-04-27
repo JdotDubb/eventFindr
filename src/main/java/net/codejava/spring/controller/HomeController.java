@@ -57,4 +57,19 @@ public class HomeController {
 		return "eventful1";
 	}
 	
+	@RequestMapping(value = "/event", method = RequestMethod.GET)
+	public String event() {
+		return "event";
+	}
+	
+	@RequestMapping(value = "/search", method = RequestMethod.GET)
+	public String search() {
+		return "search";
+	}
+	
+	@RequestMapping(value = "/rsvp", method = RequestMethod.GET)
+	public String rsvp() {
+		return "rsvp";
+	}
+	
 }
