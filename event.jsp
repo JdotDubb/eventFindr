@@ -4,7 +4,6 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>
 function rsvp(buttonID){
-//alert("ass")
 $(buttonID).text("RSVPd to Event Name");
 }
 </script>
@@ -36,13 +35,13 @@ $(buttonID).text("RSVPd to Event Name");
 <h1 style=text-align:center;>Event Name</h1><br>
 <img src="TODOimage.png" style="width:22%; display: block; margin-left: auto; margin-right: auto; width: 50%;" alt="eventName"><br>
 <div style=text-align:center>
-<p>Name: Event Name</p><br>
-<p>Address: Event Adress</p><br>
-<p>Time: Time of Event</p><br>
-<p>Date: Date of Event</p><br>
-<p>Price of Admission: Admission Price</p><br>
-<p>Tags:List of Tags</p><br>
-<p>Description: Event Description</p><br>
+<p style="font-size:150%">Name: Event Name</p><br>
+<p style="font-size:150%">Address: Event Adress</p><br>
+<p style="font-size:150%">Time: Time of Event</p><br>
+<p style="font-size:150%">Date: Date of Event</p><br>
+<p style="font-size:150%">Price of Admission: Admission Price</p><br>
+<p style="font-size:150%">Tags:List of Tags</p><br>
+<p style="font-size:150%">Description: Event Description</p><br>
 <button id="rsvp" onclick=rsvp("#rsvp")>RSVP to Event</button>
 </div>
 
