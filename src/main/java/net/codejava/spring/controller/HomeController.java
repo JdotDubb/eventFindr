@@ -72,4 +72,15 @@ public class HomeController {
 		return "rsvp";
 	}
 	
+	@RequestMapping(value = "/eventbrite1", method = RequestMethod.GET)
+	public String eventbrite1() {
+		return "eventbrite1";
+	}
+	
+	@RequestMapping(value = "/meetup1", method = RequestMethod.GET)
+	public String meetup1() {
+		return "meetup1";
+	}
+	
+	
 }

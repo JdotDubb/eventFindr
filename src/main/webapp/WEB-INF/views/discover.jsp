@@ -42,25 +42,78 @@
          <h1>Discover</h1>
          <p>Find events from other event sites</p>
       </div>
+      
+ <div class="album py-5 bg-light">
       <div class="container">
-         <div class="row">
-            <div class="col-sm-4">
-               <img src="resources/eventfulLogo.png" width="150" height="150">
-               <br>
-               <a href="/eventFindr/eventful1" class="add-event">Discover</a>
+      <div class="row">
+      <div class="col-md-4">
+         <div class="card mb-4 box-shadow">
+            <img class="card-img-top" img src="resources/eventfulLogo.png" alt="Card image cap">
+            <div class="card-body">
+               <h1>eventful</h1>
+               <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                     <!-- Trigger/Open The Modal -->
+                     <a href="eventful1" id="myBtn" class="add-event">Discover</a>
+                     <!-- The Modal -->
+                     <div id="myModal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                           <span class="close" title="Close">x</span>
+                           <iframe name="iframe_a" width="95%"height="600px"></iframe> 
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-            <div class="col-sm-4">
-               <img src="resources/meetupLogo1.png" width="150" height="150">
-               <br>
-               <a href="/eventFindr/eventful1" class="add-event">Discover</a>
+         </div>
+      </div>
+      <div class="col-md-4">
+         <div class="card mb-4 box-shadow">
+            <img class="card-img-top" img src="resources/eventbriteLogo.png" alt="Card image cap">
+            <div class="card-body">
+               <h1>eventbrite</h1>
+               <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                     <!-- Trigger/Open The Modal -->
+                     <a href="eventbrite1" id="myBtn" class="add-event">Discover</a>
+                     <!-- The Modal -->
+                     <div id="myModal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                           <span class="close" title="Close">x</span>
+                           <iframe name="iframe_a" width="95%"height="600px"></iframe> 
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-            <div class="col-sm-4">
-               <img src="resources/Eventbrite.jpg" width="150" height="150">
-               <br>
-               <a href="/eventFindr/eventful1" class="add-event">Discover</a>
+         </div>
+      </div>
+      <div class="col-md-4">
+         <div class="card mb-4 box-shadow">
+            <img class="card-img-top" img src="resources/meetupLogo.png" alt="Card image cap">
+            <div class="card-body">
+               <h1>meetup</h1>
+               <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                     <!-- Trigger/Open The Modal -->
+                     <a href="meetup1" id="myBtn" class="add-event">Discover</a>
+                     <!-- The Modal -->
+                     <div id="myModal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                           <span class="close" title="Close">x</span>
+                           <iframe name="iframe_a" width="95%"height="600px"></iframe>  
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
+         </div>
+      </div>
+      
 
-   
    </body>
 
 </html>
