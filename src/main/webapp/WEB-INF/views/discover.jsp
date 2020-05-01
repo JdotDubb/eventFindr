@@ -1,5 +1,3 @@
-
-
 <html>
    <head>
       <link rel="stylesheet" href="resources/eventFindrCSS1.css">
@@ -20,9 +18,8 @@
       <div class="banner">
       </div>
       <div class="search-button">
-      	<a href="#" class="search-toggle" data-selector="#header-3"></a>
+         <a href="#" class="search-toggle" data-selector="#header-3"></a>
       </div>
-  
       <!--Navigation ID to edit nav-->       
       <nav id="nav">
          <a class="active" href="/eventFindr/home">Home</a>
@@ -34,16 +31,15 @@
          <a href="/eventFindr/contact">Contact</a>
          <a href="/eventFindr/">Logout</a>
          <form action="" class="search-box">
-      		<input type="text" class="text search-input" placeholder="Type here to search..." />
-    	</form>
+            <input type="text" class="text search-input" placeholder="Type here to search..." />
+         </form>
       </nav>
       <!--CONTENT-->
       <div class="jumbotron text-center">
          <h1>Discover</h1>
          <p>Find events from other event sites</p>
       </div>
-      
- <div class="album py-5 bg-light">
+      <div class="album py-5 bg-light">
       <div class="container">
       <div class="row">
       <div class="col-md-4">
@@ -92,7 +88,7 @@
       </div>
       <div class="col-md-4">
          <div class="card mb-4 box-shadow">
-            <img class="card-img-top" img src="resources/meetupLogo.png" alt="Card image cap">
+            <img src="resources/meetup.png" alt="Card image cap">
             <div class="card-body">
                <h1>meetup</h1>
                <div class="d-flex justify-content-between align-items-center">
@@ -112,8 +108,5 @@
             </div>
          </div>
       </div>
-      
-
    </body>
-
 </html>
