@@ -152,6 +152,12 @@ img{
     height: auto;
 }
 
+
+.il span img{
+	margin: 14px;
+}
+
+r
 #beans{
 	background-color: #F66306;
 	border: none;

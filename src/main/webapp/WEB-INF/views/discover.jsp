@@ -48,7 +48,7 @@
       <div class="row">
       <div class="col-md-4">
          <div class="card mb-4 box-shadow">
-            <img class="card-img-top" img src="resources/eventfulLogo.png" alt="Card image cap">
+            <img class="card-img-top" img src="resources/eventful.png" alt="Card image cap">
             <div class="card-body">
                <h1>eventful</h1>
                <div class="d-flex justify-content-between align-items-center">
@@ -70,7 +70,7 @@
       </div>
       <div class="col-md-4">
          <div class="card mb-4 box-shadow">
-            <img class="card-img-top" img src="resources/eventbriteLogo.png" alt="Card image cap">
+            <img class="card-img-top" img src="resources/eventbrite.png" alt="Card image cap">
             <div class="card-body">
                <h1>eventbrite</h1>
                <div class="d-flex justify-content-between align-items-center">
