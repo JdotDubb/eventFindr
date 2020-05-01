@@ -49,7 +49,7 @@
          <div class="e1">
          <div class="il">
             <span>
-            <button style="width:22%" onclick="load()" id="beans">See more about Event Name!</button><button style="width:22%" onclick="load()">See more about Event Name</button><button style="width:22%" onclick="load()">See more about Event Name</button><button style="width:22%" onclick="load()">See more about Event Name</button>
+            <button style="width:22%" onclick="load()" id="beans">See more about Event Name</button><button style="width:22%" onclick="load()" id="beans">See more about Event Name</button><button style="width:22%" onclick="load()" id="beans">See more about Event Name</button><button style="width:22%" onclick="load()" id="beans">See more about Event Name</button>
             </span><br>
             <span>
             <img src="resources/TODOimage.png" style="width:22%" alt="eventName"><img src="resources/TODOimage.png" style="width:22%" alt="eventName"><img src="resources/TODOimage.png" style="width:22%" alt="eventName"><img src="resources/TODOimage.png" style="width:22%" alt="eventName">
@@ -59,7 +59,7 @@
          <div class="e1">
          <div class="il">
             <span>
-            <button style="width:22%" onclick="load()">See more about Event Name</button><button style="width:22%" onclick="load()">See more about Event Name</button><button style="width:22%" onclick="load()">See more about Event Name</button><button style="width:22%" onclick="load()">See more about Event Name</button>
+            <button style="width:22%" onclick="load()" id="beans">See more about Event Name</button><button style="width:22%" onclick="load()" id="beans">See more about Event Name</button><button style="width:22%" onclick="load()" id="beans">See more about Event Name</button><button style="width:22%" onclick="load()" id="beans">See more about Event Name</button>
             </span><br>
             <span>
             <img src="resources/TODOimage.png" style="width:22%" alt="eventName"><img src="resources/TODOimage.png" style="width:22%" alt="eventName"><img src="resources/TODOimage.png" style="width:22%" alt="eventName"><img src="resources/TODOimage.png" style="width:22%" alt="eventName">
@@ -69,7 +69,7 @@
          <div class="e1">
          <div class="il">
             <span>
-            <button style="width:22%" onclick="load()">See more about Event Name</button><button style="width:22%" onclick="load()">See more about Event Name</button><button style="width:22%" onclick="load()">See more about Event Name</button><button style="width:22%" onclick="load()">See more about Event Name</button>
+            <button style="width:22%" onclick="load()" id="beans" >See more about Event Name</button><button style="width:22%" onclick="load()" id="beans">See more about Event Name</button><button style="width:22%" onclick="load()" id="beans">See more about Event Name</button><button style="width:22%" onclick="load()" id="beans">See more about Event Name</button>
             </span><br>
             <span>
             <img src="resources/TODOimage.png" style="width:22%" alt="eventName"><img src="resources/TODOimage.png" style="width:22%" alt="eventName"><img src="resources/TODOimage.png" style="width:22%" alt="eventName"><img src="resources/TODOimage.png" style="width:22%" alt="eventName">
