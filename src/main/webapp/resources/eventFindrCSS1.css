@@ -99,4 +99,21 @@ img{
     height: auto;
 }
 
+.il span img{
+	margin: 14px;
+}
+#beans{
+	background-color: #F66306;
+	border: none;
+	color: black;
+	margin: 10px;
+	padding: 15px;
+	text-align: center;
+	font-size: 17px;
+	cursor: pointer;
+	border-radius: 10px;
+}
 
+#beans:hover {
+	background-color: blue;
+}

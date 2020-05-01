@@ -1,4 +1,3 @@
-
 <html>
    <head>
       <link rel="stylesheet" href="resources/eventFindrCSS1.css">
@@ -40,8 +39,27 @@
       <div class="jumbotron text-center">
          <h1>Host</h1>
          <p>Let's get your event started</p>
-         <button class="add-event">Add Event</button>
+      </div>
+      
+      <div class="container">
+      	 <div class ="row1">
+      	 
+      	 	<div class = column1></div>
+      	 		<form>
+      	 			<label for="name">Name of event: </label>            
+      	 			<input type="text" id="Nevent" name="Nevet">
+      	 			<label for="Location">Location: </label>
+      	 			<input type=text" id="Loct"  name="Loct"><br>
+      	 			<label for="times">From: </label>
+      	 			<input type="time" id="times" name="times">
+      	 			<label for="times">To: </label>
+      	 			<input type="time" id="times" name="times"><br>
+      	 			<label for="textbox">Description of the event: </label>
+      	 			<textarea id="textbox" name="textbox"></textarea>
+      	 			
+      	 		</form>
+      	    <button class="add-event">Add Event</button>
+      	 </div>		
       </div>
    </body>
-
 </html>

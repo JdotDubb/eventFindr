@@ -202,7 +202,7 @@
       <!-- Title -->
       <h4 class="card-title font-weight-bold">Alie Corporation</h4>
       <!-- Text -->
-      <p class="card-text mb-4">NYSE: AZHC  •  Oct 16, 1:45PM</p>
+      <p class="card-text mb-4">NYSE: AZHC  ï¿½  Oct 16, 1:45PM</p>
       <div class="d-flex justify-content-between">
         <p class="display-4 align-self-end">887.32</p>
         <p class="align-self-end pb-2">887.02 (.03%)</p>
