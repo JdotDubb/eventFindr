@@ -1,3 +1,5 @@
+
+
 <html>
    <head>
       <link rel="stylesheet" href="resources/eventFindrCSS1.css">
@@ -23,13 +25,14 @@
   
       <!--Navigation ID to edit nav-->       
       <nav id="nav">
-         <a class="active" href="/eventFindr/">Home</a>
+         <a class="active" href="/eventFindr/home">Home</a>
          <a href="/eventFindr/host">Host</a>
          <a href="/eventFindr/discover">Discover</a>
          <a href="/eventFindr/join">Join</a>
+         <a href="/eventFindr/rsvp">My RSVP's</a>
          <a href="/eventFindr/pastevents">Past Events</a>
-         <a href="/eventFindr/contact">CONTACT</a>
-         <a href="/eventFindr/signup">SIGN UP</a>
+         <a href="/eventFindr/contact">Contact</a>
+         <a href="/eventFindr/">Logout</a>
          <form action="" class="search-box">
       		<input type="text" class="text search-input" placeholder="Type here to search..." />
     	</form>
@@ -37,26 +40,80 @@
       <!--CONTENT-->
       <div class="jumbotron text-center">
          <h1>Discover</h1>
-         <p>Let's find your next event</p>
+         <p>Find events from other event sites</p>
       </div>
+      
+ <div class="album py-5 bg-light">
       <div class="container">
-         <div class="row">
-            <div class="col-sm-4">
-               <h3>Column 1</h3>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-            </div>
-            <div class="col-sm-4">
-               <h3>Column 2</h3>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-            </div>
-            <div class="col-sm-4">
-               <h3>Column 3</h3>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <div class="row">
+      <div class="col-md-4">
+         <div class="card mb-4 box-shadow">
+            <img class="card-img-top" img src="resources/eventfulLogo.png" alt="Card image cap">
+            <div class="card-body">
+               <h1>eventful</h1>
+               <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                     <!-- Trigger/Open The Modal -->
+                     <a href="eventful1" id="myBtn" class="add-event">Discover</a>
+                     <!-- The Modal -->
+                     <div id="myModal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                           <span class="close" title="Close">x</span>
+                           <iframe name="iframe_a" width="95%"height="600px"></iframe> 
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
       </div>
+      <div class="col-md-4">
+         <div class="card mb-4 box-shadow">
+            <img class="card-img-top" img src="resources/eventbriteLogo.png" alt="Card image cap">
+            <div class="card-body">
+               <h1>eventbrite</h1>
+               <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                     <!-- Trigger/Open The Modal -->
+                     <a href="eventbrite1" id="myBtn" class="add-event">Discover</a>
+                     <!-- The Modal -->
+                     <div id="myModal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                           <span class="close" title="Close">x</span>
+                           <iframe name="iframe_a" width="95%"height="600px"></iframe> 
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="col-md-4">
+         <div class="card mb-4 box-shadow">
+            <img class="card-img-top" img src="resources/meetupLogo.png" alt="Card image cap">
+            <div class="card-body">
+               <h1>meetup</h1>
+               <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                     <!-- Trigger/Open The Modal -->
+                     <a href="meetup1" id="myBtn" class="add-event">Discover</a>
+                     <!-- The Modal -->
+                     <div id="myModal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                           <span class="close" title="Close">x</span>
+                           <iframe name="iframe_a" width="95%"height="600px"></iframe>  
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      
+
    </body>
+
 </html>

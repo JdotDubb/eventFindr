@@ -85,13 +85,14 @@ input[type=submit]:hover {
       </div>
       <!--Navigation ID to edit nav-->       
       <nav id="nav">
-         <a class="active" href="/eventFindr/">Home</a>
+         <a class="active" href="/eventFindr/home">Home</a>
          <a href="/eventFindr/host">Host</a>
          <a href="/eventFindr/discover">Discover</a>
          <a href="/eventFindr/join">Join</a>
+         <a href="/eventFindr/rsvp">My RSVP's</a>
          <a href="/eventFindr/pastevents">Past Events</a>
-         <a href="/eventFindr/contact">CONTACT</a>
-         <a href="/eventFindr/signup">SIGN UP</a>
+         <a href="/eventFindr/contact">Contact</a>
+         <a href="/eventFindr/">Logout</a>
          <form action="" class="search-box">
       		<input type="text" class="text search-input" placeholder="Type here to search..." />
     	</form>
@@ -105,7 +106,7 @@ input[type=submit]:hover {
   			<div class="row">
 
     			<div class="column">
-      				<form action="/action_page.php">
+      				<form action="/eventFindr/contact">
         				<label for="fname">First Name</label>
         				<input type="text" id="fname" name="firstname" placeholder="Your name..">	
         				<label for="lname">Last Name</label>

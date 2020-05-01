@@ -9,8 +9,8 @@ public class HomeController {
 	
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String home() {
-		return "home";
+	public String login() {
+		return "login";
 	}
 	
 	@RequestMapping(value = "/test", method = RequestMethod.GET)
@@ -38,11 +38,6 @@ public class HomeController {
 		return "join";
 	}
 	
-	@RequestMapping(value = "/signup", method = RequestMethod.GET)
-	public String signup() {
-		return "signup";
-	}
-	
 	@RequestMapping(value = "/policy", method = RequestMethod.GET)
 	public String policy() {
 		return "policy";
@@ -51,9 +46,41 @@ public class HomeController {
 	public String contact() {
 		return "contact";
 	}
-	@RequestMapping(value = "/login", method = RequestMethod.GET)
-	public String login() {
-		return "login";
+	
+	@RequestMapping(value = "/home", method = RequestMethod.GET)
+	public String home() {
+		return "home";
 	}
+	
+	@RequestMapping(value = "/eventful1", method = RequestMethod.GET)
+	public String eventful1() {
+		return "eventful1";
+	}
+	
+	@RequestMapping(value = "/event", method = RequestMethod.GET)
+	public String event() {
+		return "event";
+	}
+	
+	@RequestMapping(value = "/search", method = RequestMethod.GET)
+	public String search() {
+		return "search";
+	}
+	
+	@RequestMapping(value = "/rsvp", method = RequestMethod.GET)
+	public String rsvp() {
+		return "rsvp";
+	}
+	
+	@RequestMapping(value = "/eventbrite1", method = RequestMethod.GET)
+	public String eventbrite1() {
+		return "eventbrite1";
+	}
+	
+	@RequestMapping(value = "/meetup1", method = RequestMethod.GET)
+	public String meetup1() {
+		return "meetup1";
+	}
+	
 	
 }

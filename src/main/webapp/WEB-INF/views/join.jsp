@@ -10,6 +10,12 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script>
+         function load(){
+         window.location.href="event.html"
+         }
+      </script>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
       <title>eventFindr | Host, Dicover, Join</title>
    </head>
@@ -17,48 +23,57 @@
       <!--Div for banner & text-->
       <div class="banner">
       </div>
-	  <div class="search-button">
-      	<a href="#" class="search-toggle" data-selector="#header-3"></a>
+      <div class="search-button">
+         <a href="#" class="search-toggle" data-selector="#header-3"></a>
       </div>
       <!--Navigation ID to edit nav-->       
       <nav id="nav">
-         <a class="active" href="/eventFindr/">Home</a>
+         <a class="active" href="/eventFindr/home">Home</a>
          <a href="/eventFindr/host">Host</a>
          <a href="/eventFindr/discover">Discover</a>
          <a href="/eventFindr/join">Join</a>
+         <a href="/eventFindr/rsvp">My RSVP's</a>
          <a href="/eventFindr/pastevents">Past Events</a>
-         <a href="/eventFindr/contact">CONTACT</a>
-         <a href="/eventFindr/signup">SIGN UP</a>
+         <a href="/eventFindr/contact">Contact</a>
+         <a href="/eventFindr/">Logout</a>
          <form action="" class="search-box">
-      		<input type="text" class="text search-input" placeholder="Type here to search..." />
-    	</form>
+            <input type="text" class="text search-input" placeholder="Type here to search..." />
+         </form>
       </nav>
-       <!--CONTENT-->
+      <!--CONTENT-->
       <div class="jumbotron text-center">
          <h1>Join</h1>
-         <p>Let's join an event</p>
+         <p>Search events with eventFindr</p>
       </div>
-      <div class="container">
-         <div class="row">
-            <div class="col-sm-4">
-               <h3>Column 1</h3>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-            </div>
-            <div class="col-sm-4">
-               <h3>YOGA</h3>
-               <p>Yoga is a physical, mental, and spiritual discipline originating in ancient India. 
-               While stretching is certainly involved, yoga is also about creating balance in the body
-               through developing both strength and flexibility.</p>
-               <p><a href="http://www.cvent.com/events/yoga/event-summary-dc73f2830f2849bdaac39913b91fd6d3.aspx">Learn More</a></p>
-             
-            </div>
-            <div class="col-sm-4">
-               <h3>Column 3</h3>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-            </div>
+      <body id="events">
+         <div class="e1">
+         <div class="il">
+            <span>
+            <button style="width:22%" onclick="load()" id="beans">See more about Event Name</button><button style="width:22%" onclick="load()" id="beans">See more about Event Name</button><button style="width:22%" onclick="load()" id="beans">See more about Event Name</button><button style="width:22%" onclick="load()" id="beans">See more about Event Name</button>
+            </span><br>
+            <span>
+            <img src="resources/TODOimage.png" style="width:22%" alt="eventName"><img src="resources/TODOimage.png" style="width:22%" alt="eventName"><img src="resources/TODOimage.png" style="width:22%" alt="eventName"><img src="resources/TODOimage.png" style="width:22%" alt="eventName">
+            </span>
+            <span>
          </div>
-      </div>
+         <div class="e1">
+         <div class="il">
+            <span>
+            <button style="width:22%" onclick="load()" id="beans">See more about Event Name</button><button style="width:22%" onclick="load()" id="beans">See more about Event Name</button><button style="width:22%" onclick="load()" id="beans">See more about Event Name</button><button style="width:22%" onclick="load()" id="beans">See more about Event Name</button>
+            </span><br>
+            <span>
+            <img src="resources/TODOimage.png" style="width:22%" alt="eventName"><img src="resources/TODOimage.png" style="width:22%" alt="eventName"><img src="resources/TODOimage.png" style="width:22%" alt="eventName"><img src="resources/TODOimage.png" style="width:22%" alt="eventName">
+            </span>
+            <span>
+         </div>
+         <div class="e1">
+         <div class="il">
+            <span>
+            <button style="width:22%" onclick="load()" id="beans" >See more about Event Name</button><button style="width:22%" onclick="load()" id="beans">See more about Event Name</button><button style="width:22%" onclick="load()" id="beans">See more about Event Name</button><button style="width:22%" onclick="load()" id="beans">See more about Event Name</button>
+            </span><br>
+            <span>
+            <img src="resources/TODOimage.png" style="width:22%" alt="eventName"><img src="resources/TODOimage.png" style="width:22%" alt="eventName"><img src="resources/TODOimage.png" style="width:22%" alt="eventName"><img src="resources/TODOimage.png" style="width:22%" alt="eventName">
+            </span>
+         </div>
    </body>
 </html>

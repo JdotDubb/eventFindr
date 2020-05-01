@@ -1,3 +1,4 @@
+
 <html>
    <head>
       <link rel="stylesheet" href="resources/eventFindrCSS1.css">
@@ -22,40 +23,51 @@
       </div>
       <!--Navigation ID to edit nav-->       
       <nav id="nav">
-         <a class="active" href="/eventFindr/">Home</a>
+         <a class="active" href="/eventFindr/home">Home</a>
          <a href="/eventFindr/host">Host</a>
          <a href="/eventFindr/discover">Discover</a>
          <a href="/eventFindr/join">Join</a>
+         <a href="/eventFindr/rsvp">My RSVP's</a>
          <a href="/eventFindr/pastevents">Past Events</a>
-         <a href="/eventFindr/contact">CONTACT</a>
-         <a href="/eventFindr/signup">SIGN UP</a>
+         <a href="/eventFindr/contact">Contact</a>
+         <a href="/eventFindr/">Logout</a>
          <form action="" class="search-box">
       		<input type="text" class="text search-input" placeholder="Type here to search..." />
     	</form>
       </nav>
+      
       <!--CONTENT-->
       <div class="jumbotron text-center">
          <h1>Host</h1>
          <p>Let's get your event started</p>
       </div>
-      <div class="container">
-         <div class="row">
-            <div class="col-sm-4">
-               <h3>Column 1</h3>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-            </div>
-            <div class="col-sm-4">
-               <h3>Column 2</h3>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-            </div>
-            <div class="col-sm-4">
-               <h3>Column 3</h3>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-            </div>
-         </div>
+      
+      <div class="section">
+      	 		<form class="form">
+      	 			<div class="col1">
+      	 				<label for="name" class="name1">Name of event: </label>            
+      	 				<input type="text" id="Nevent" name="Nevent">
+      	 				<label for="Location" class= "loct1">Location: </label>
+      	 				<input type="text" id="Loct"  name="Loct">
+      	 			</div>
+
+				    <div class="col2">
+      	 				<label for="times1" class="me">From: </label>
+      	 				<input type="time" id="times1" name="times1">
+      	 				<label for="times">To: </label>
+      	 				<input type="time" id="times2" name="times2">
+      	 			</div>
+      	 			
+      	 			<div class="col3">
+      	 			<label for="textbox">Description of the event: </label>
+      	 			<textarea id="textbox" name="textbox"></textarea>
+      	 			</div>
+      	 			
+      	 			<input type="submit" value="Add event">
+      	 			
+      	 		</form>
+      	  	
       </div>
    </body>
+
 </html>
