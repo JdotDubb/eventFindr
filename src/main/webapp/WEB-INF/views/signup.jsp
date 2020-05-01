@@ -146,7 +146,7 @@ hr {
       </nav>
        <!--CONTENT-->
       <div class="jumbotron text-center">
-         <h1>Welcome</h1>
+         <h1>Welcom</h1>
          <p>Create an account</p>
       </div>
       <h2>Please sign up here</h2>

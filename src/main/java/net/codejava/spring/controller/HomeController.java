@@ -56,8 +56,4 @@ public class HomeController {
 		return "login";
 	}
 	
-	@RequestMapping(value = "/create", method = RequestMethod.GET)
-	public String create() {
-		return "create";
-	}
 }
