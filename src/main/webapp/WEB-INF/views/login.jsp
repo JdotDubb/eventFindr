@@ -27,67 +27,65 @@
       </div>
       <div id="okta-login-container"></div>
       <script type="text/javascript">
+         var oktaSignIn = new OktaSignIn({
+           baseUrl: 'https://dev-809439.okta.com',
+           clientId: '0oa91k37botbh77JT4x6',
+           redirectUri: 'http://localhost:8080/eventFindr/home',
+           features: { registration:true },
+           authParams: {
+             issuer: 'https://dev-809439.okta.com/oauth2/default',
+             responseType: ['token', 'id_token'],
+             display: 'page'
+             
+           }
+         });
+         if (oktaSignIn.hasTokensInUrl()) {
+           oktaSignIn.authClient.token.parseFromUrl().then(function success(tokens) {
+               // tokens is or is not an array based on the scopes involved
+               tokens = Array.isArray(tokens) ? tokens : [tokens];
          
+               // Save the tokens for later use, for example if the page gets refreshed:
+               // Add the token to tokenManager to automatically renew the token when needed
+               tokens.forEach(function(token) {
+                 if (token.idToken) {
+                   oktaSignIn.authClient.tokenManager.add('idToken', token);
+                 }
+                 if (token.accessToken) {
+                   oktaSignIn.authClient.tokenManager.add('accessToken', token);
+                 }
+               });
          
-           var oktaSignIn = new OktaSignIn({
-             baseUrl: 'https://dev-809439.okta.com',
-             clientId: '0oa91k37botbh77JT4x6',
-             redirectUri: 'http://localhost:8080/eventFindr/home',
-             features: { registration:true },
-             authParams: {
-               issuer: 'https://dev-809439.okta.com/oauth2/default',
-               responseType: ['token', 'id_token'],
-               display: 'page'
-               
+               // Say hello to the person who just signed in:
+               oktaSignIn.authClient.tokenManager.get('idToken').then(function (idToken) {
+                 console.log('Hello, ' + idToken.claims.email);
+               });
+             },
+             function error(err) {
+               // handle errors as needed
+               console.error(err);
              }
-           });
-           if (oktaSignIn.hasTokensInUrl()) {
-             oktaSignIn.authClient.token.parseFromUrl().then(function success(tokens) {
-                 // tokens is or is not an array based on the scopes involved
-                 tokens = Array.isArray(tokens) ? tokens : [tokens];
-         
-                 // Save the tokens for later use, for example if the page gets refreshed:
-                 // Add the token to tokenManager to automatically renew the token when needed
-                 tokens.forEach(function(token) {
-                   if (token.idToken) {
-                     oktaSignIn.authClient.tokenManager.add('idToken', token);
-                   }
-                   if (token.accessToken) {
-                     oktaSignIn.authClient.tokenManager.add('accessToken', token);
-                   }
-                 });
-         
-                 // Say hello to the person who just signed in:
-                 oktaSignIn.authClient.tokenManager.get('idToken').then(function (idToken) {
-                   console.log('Hello, ' + idToken.claims.email);
-                 });
+           );
+         } else {
+           oktaSignIn.authClient.session.get().then(function (res) {
+             // Session exists, show logged in state.
+             if (res.status === 'ACTIVE') {
+               console.log('Welcome back, ' + res.login);
+               return;
+             }
+             // No session, show the login form
+             oktaSignIn.renderEl(
+               {el: '#okta-login-container'},
+               function success(res) {
+                 // Nothing to do in this case, the widget will automatically redirect
+                 // the user to Okta for authentication, then back to this page if successful
                },
                function error(err) {
                  // handle errors as needed
                  console.error(err);
                }
              );
-           } else {
-             oktaSignIn.authClient.session.get().then(function (res) {
-               // Session exists, show logged in state.
-               if (res.status === 'ACTIVE') {
-                 console.log('Welcome back, ' + res.login);
-                 return;
-               }
-               // No session, show the login form
-               oktaSignIn.renderEl(
-                 {el: '#okta-login-container'},
-                 function success(res) {
-                   // Nothing to do in this case, the widget will automatically redirect
-                   // the user to Okta for authentication, then back to this page if successful
-                 },
-                 function error(err) {
-                   // handle errors as needed
-                   console.error(err);
-                 }
-               );
-             });
-           }
+           });
+         }
       </script>
    </body>
 </html>

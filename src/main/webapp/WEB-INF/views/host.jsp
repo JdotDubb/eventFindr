@@ -1,4 +1,3 @@
-
 <html>
    <head>
       <link rel="stylesheet" href="resources/eventFindrCSS1.css">
@@ -19,7 +18,7 @@
       <div class="banner">         
       </div>
       <div class="search-button">
-      	<a href="#" class="search-toggle" data-selector="#header-3"></a>
+         <a href="#" class="search-toggle" data-selector="#header-3"></a>
       </div>
       <!--Navigation ID to edit nav-->       
       <nav id="nav">
@@ -32,42 +31,34 @@
          <a href="/eventFindr/contact">Contact</a>
          <a href="/eventFindr/">Logout</a>
          <form action="" class="search-box">
-      		<input type="text" class="text search-input" placeholder="Type here to search..." />
-    	</form>
+            <input type="text" class="text search-input" placeholder="Type here to search..." />
+         </form>
       </nav>
-      
       <!--CONTENT-->
       <div class="jumbotron text-center">
          <h1>Host</h1>
          <p>Let's get your event started</p>
       </div>
-      
       <div class="section">
-      	 		<form class="form">
-      	 			<div class="col1">
-      	 				<label for="name" class="name1">Name of event: </label>            
-      	 				<input type="text" id="Nevent" name="Nevent">
-      	 				<label for="Location" class= "loct1">Location: </label>
-      	 				<input type="text" id="Loct"  name="Loct">
-      	 			</div>
-
-				    <div class="col2">
-      	 				<label for="times1" class="me">From: </label>
-      	 				<input type="time" id="times1" name="times1">
-      	 				<label for="times">To: </label>
-      	 				<input type="time" id="times2" name="times2">
-      	 			</div>
-      	 			
-      	 			<div class="col3">
-      	 			<label for="textbox">Description of the event: </label>
-      	 			<textarea id="textbox" name="textbox"></textarea>
-      	 			</div>
-      	 			
-      	 			<input type="submit" value="Add event">
-      	 			
-      	 		</form>
-      	  	
+         <form class="form">
+            <div class="col1">
+               <label for="name" class="name1">Name of event: </label>            
+               <input type="text" id="Nevent" name="Nevent">
+               <label for="Location" class= "loct1">Location: </label>
+               <input type="text" id="Loct"  name="Loct">
+            </div>
+            <div class="col2">
+               <label for="times1" class="me">From: </label>
+               <input type="time" id="times1" name="times1">
+               <label for="times">To: </label>
+               <input type="time" id="times2" name="times2">
+            </div>
+            <div class="col3">
+               <label for="textbox">Description of the event: </label>
+               <textarea id="textbox" name="textbox"></textarea>
+            </div>
+            <input type="submit" id="beans" value="Add event">
+         </form>
       </div>
    </body>
-
 </html>
